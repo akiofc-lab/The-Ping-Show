@@ -1,0 +1,85 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_nomExtension__",
+  "description": "__MSG_description__",
+  "version": "6.5.1",
+  "default_locale": "en",
+  "minimum_chrome_version": "116",
+  "icons": {
+    "16": "icones/icone16.png",
+    "32": "icones/icone32.png",
+    "48": "icones/icone48.png",
+    "128": "icones/icone128.png"
+  },
+  "action": {
+    "default_title": "__MSG_titreAction__",
+    "default_icon": {
+      "16": "icones/icone16.png",
+      "32": "icones/icone32.png",
+      "48": "icones/icone48.png"
+    }
+  },
+  "side_panel": {
+    "default_path": "panneau.html"
+  },
+  "background": {
+    "service_worker": "fond.js"
+  },
+  "permissions": [
+    "sidePanel",
+    "storage",
+    "scripting",
+    "unlimitedStorage"
+  ],
+  "host_permissions": [
+    "https://discord.com/*",
+    "https://*.discord.com/*",
+    "https://huggingface.co/*",
+    "https://*.huggingface.co/*",
+    "https://*.hf.co/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://discord.com/*",
+        "https://*.discord.com/*"
+      ],
+      "js": [
+        "contenu.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'"
+  },
+  "cross_origin_embedder_policy": {
+    "value": "require-corp"
+  },
+  "cross_origin_opener_policy": {
+    "value": "same-origin"
+  },
+  "commands": {
+    "play-pause": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+8"
+      },
+      "description": "__MSG_commandeLecture__",
+      "global": true
+    },
+    "previous-message": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+7"
+      },
+      "description": "__MSG_commandePrecedent__",
+      "global": true
+    },
+    "next-message": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+9"
+      },
+      "description": "__MSG_commandeSuivant__",
+      "global": true
+    }
+  }
+}

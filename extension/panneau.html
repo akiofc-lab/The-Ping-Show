@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Ping Show</title>
+  <link rel="icon" href="icones/icone32.png">
+  <link rel="stylesheet" href="panneau.css">
+</head>
+<body>
+  <header class="scene" id="scene" data-ouvert="false">
+    <div class="plateau">
+      <div class="figurants" id="troupe" role="group" data-i18n-aria="troupe"></div>
+      <div class="parole" aria-live="polite">
+        <span class="masque" id="masque" aria-hidden="true"></span>
+        <div class="replique">
+          <strong id="qui"></strong>
+          <p id="quoi" data-i18n="enAttente"></p>
+        </div>
+      </div>
+    </div>
+    <div class="rideau gauche" aria-hidden="true"></div>
+    <div class="rideau droite" aria-hidden="true"></div>
+    <div class="frise" aria-hidden="true"></div>
+    <div class="enseigne">
+      <h1 id="logo"></h1>
+      <p class="avec" id="source" hidden></p>
+    </div>
+  </header>
+
+  <main>
+    <div class="transport" role="group" data-i18n-aria="transport">
+      <button id="debut" class="touche" type="button" data-i18n-titre="debut">
+        <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 4h2.200v12H4zM16 4v12l-8-6z"/></svg>
+      </button>
+      <button id="reculer" class="touche" type="button" data-i18n-titre="reculer">
+        <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 4v12l-8-6zM18 4v12l-8-6z"/></svg>
+      </button>
+      <button id="lecture" class="touche principale" type="button" aria-pressed="false" data-i18n-titre="lectureRaccourci">
+        <svg class="si-arret" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 3l12 7-12 7z"/></svg>
+        <svg class="si-marche" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 3.500h3.600v13H5zM11.400 3.500H15v13h-3.600z"/></svg>
+        <span class="libelle-lecture">
+          <span id="lecture-texte" data-i18n="lecture">Play</span>
+          <small id="lecture-nouveaux" hidden></small>
+        </span>
+      </button>
+      <button id="suivant" class="touche" type="button" data-i18n-titre="suivant">
+        <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M2 4l8 6-8 6zM10 4l8 6-8 6z"/></svg>
+      </button>
+      <button id="arret" class="touche" type="button" data-i18n-titre="arreter">
+        <svg viewBox="0 0 20 20" aria-hidden="true"><rect x="4.500" y="4.500" width="11" height="11" rx="1.500"/></svg>
+      </button>
+    </div>
+    <button id="direct" class="lien direct" type="button" data-i18n="direct" hidden>Back to live</button>
+    <p id="etat" class="etat" role="status" data-i18n="etatRepos"></p>
+
+    <section class="carte troupe" aria-labelledby="titre-distribution">
+      <div class="entete">
+        <h2 id="titre-distribution" data-i18n="distribution">Cast</h2>
+        <button id="redistribuer" class="lien" type="button" data-i18n="redistribuer" hidden>Draw again</button>
+      </div>
+      <div class="paquet">
+        <label for="paquet" data-i18n="paquet">Voice pack</label>
+        <select id="paquet"></select>
+        <button id="ajouter-paquet" class="lien" type="button" data-i18n="ajouterPaquet">Add a pack…</button>
+        <button id="retirer-paquet" class="lien" type="button" data-i18n="retirerPaquet" hidden>Remove this pack</button>
+        <input id="fichier-paquet" type="file" accept=".json,application/json" multiple hidden>
+      </div>
+      <p id="paquet-message" class="vide" role="status" hidden></p>
+      <p id="vide" class="vide" data-i18n="distributionVide"></p>
+      <ul id="distribution"></ul>
+    </section>
+
+    <section class="carte reglages" data-i18n-aria="reglages">
+      <div class="commandes">
+        <label class="curseur">
+          <span data-i18n="volume">Volume</span>
+          <input id="volume" type="range" min="0" max="100" value="85">
+        </label>
+        <label class="curseur">
+          <span data-i18n="ambiance">Background</span>
+          <input id="ambiance" type="range" min="0" max="100" value="30">
+        </label>
+      </div>
+      <div class="interrupteurs">
+        <label class="interrupteur" data-i18n-bulle="indicatifsAide">
+          <input id="indicatifs" type="checkbox" role="switch" checked>
+          <span class="glissiere" aria-hidden="true"></span>
+          <span data-i18n="indicatifs">Jingles</span>
+        </label>
+        <label class="interrupteur" data-i18n-bulle="ticsAide">
+          <input id="tics" type="checkbox" role="switch" checked>
+          <span class="glissiere" aria-hidden="true"></span>
+          <span data-i18n="tics">Catchphrases</span>
+        </label>
+        <label class="interrupteur" data-i18n-bulle="emojisAide">
+          <input id="emojis" type="checkbox" role="switch" checked>
+          <span class="glissiere" aria-hidden="true"></span>
+          <span data-i18n="emojis">Emoji sounds</span>
+        </label>
+        <label class="interrupteur" data-i18n-bulle="genreAide">
+          <input id="genre" type="checkbox" role="switch" checked>
+          <span class="glissiere" aria-hidden="true"></span>
+          <span data-i18n="genre">Guess gender</span>
+        </label>
+      </div>
+      <div class="langues">
+        <label class="langue" data-i18n-bulle="langueAide">
+          <span data-i18n="langue">If unsure, read in</span>
+          <select id="langue">
+            <option value="en" data-i18n="anglais">English</option>
+            <option value="fr" data-i18n="francais">French</option>
+          </select>
+        </label>
+        <div class="bascule" role="group" data-i18n-titre="interface">
+          <button type="button" data-interface="en" aria-pressed="true" lang="en" title="English">EN</button>
+          <button type="button" data-interface="fr" aria-pressed="false" lang="fr" title="Français">FR</button>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p class="consigne" data-i18n="consigneOu"></p>
+      <ul class="consignes">
+        <li><span data-i18n="consigneRefus"></span> <kbd>!voice off</kbd></li>
+        <li><span data-i18n="consigneRetour"></span> <kbd>!voice on</kbd></li>
+        <li><span data-i18n="consigneChoix"></span> <kbd>!voice <span data-i18n="consigneNom"></span></kbd></li>
+      </ul>
+      <dl class="raccourcis" id="raccourcis" data-i18n-bulle="raccourciChanger"></dl>
+      <p class="note" data-i18n="confidentialite"></p>
+    </footer>
+  </main>
+
+  <template id="modele-ligne">
+    <li class="ligne">
+      <span class="tete" aria-hidden="true"></span>
+      <span class="nom"><span class="nom-texte"></span><span class="etoile" hidden> ★</span></span>
+      <button class="icone genre" type="button"></button>
+      <button class="icone ecouter" type="button">
+        <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M4 2.5v11l9-5.5z" fill="currentColor"/></svg>
+      </button>
+      <button class="icone muet" type="button" aria-pressed="false">
+        <svg viewBox="0 0 16 16" width="15" height="15" aria-hidden="true">
+          <path d="M2 6h2.5L8 3v10L4.5 10H2z" fill="currentColor"/>
+          <path class="ondes" d="M10.2 5.4a3.6 3.6 0 0 1 0 5.2M12 3.6a6.2 6.2 0 0 1 0 8.8" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
+          <path class="barre" d="M10.5 6l4 4m0-4l-4 4" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <select class="choix"></select>
+    </li>
+  </template>
+
+  <script src="moteur/textes.js"></script>
+  <script src="moteur/personnages.js"></script>
+  <script src="moteur/effets.js"></script>
+  <script src="moteur/ambiances.js"></script>
+  <script src="moteur/paquets.js"></script>
+  <script src="moteur/icones.js"></script>
+  <script src="moteur/logo.js"></script>
+  <script src="moteur/genre.js"></script>
+  <script src="moteur/emojis.js"></script>
+  <script src="moteur/texte.js"></script>
+  <script src="panneau.js"></script>
+</body>
+</html>

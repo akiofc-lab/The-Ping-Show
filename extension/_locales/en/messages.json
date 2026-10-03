@@ -1,0 +1,20 @@
+{
+  "nomExtension": {
+    "message": "The Ping Show"
+  },
+  "description": {
+    "message": "Reads Discord out loud, live or as a replay, with a funny character voice for each person."
+  },
+  "titreAction": {
+    "message": "Open The Ping Show"
+  },
+  "commandeLecture": {
+    "message": "Play / pause the reading"
+  },
+  "commandePrecedent": {
+    "message": "Previous message"
+  },
+  "commandeSuivant": {
+    "message": "Next message"
+  }
+}

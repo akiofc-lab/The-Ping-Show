@@ -1,0 +1,383 @@
+{
+ "chien": {
+  "file": "2-118964-A-0.wav",
+  "start": 0.13,
+  "end": 1.0,
+  "fade": 0.05,
+  "title": "Dog Bark 4.wav",
+  "author": "esperri",
+  "source": "https://freesound.org/people/esperri/sounds/118964/",
+  "licence": "CC0 1.0"
+ },
+ "chat": {
+  "file": "4-133047-A-5.wav",
+  "start": 0.0,
+  "end": 1.01,
+  "fade": 0.08,
+  "title": "MAD CAT !.wav",
+  "author": "temawas",
+  "source": "https://freesound.org/people/temawas/sounds/133047/",
+  "licence": "CC0 1.0"
+ },
+ "coq": {
+  "file": "5-234879-B-1.wav",
+  "start": 0.0,
+  "end": 1.55,
+  "fade": 0.2,
+  "title": "chickensMS.wav",
+  "author": "leosalom",
+  "source": "https://freesound.org/people/leosalom/sounds/234879/",
+  "licence": "CC0 1.0"
+ },
+ "poule": {
+  "file": "4-232495-A-6.wav",
+  "start": 0.0,
+  "end": 1.0,
+  "fade": 0.15,
+  "title": "Polish hen cackling.wav",
+  "author": "eksaa",
+  "source": "https://freesound.org/people/eksaa/sounds/232495/",
+  "licence": "CC0 1.0"
+ },
+ "cochon": {
+  "file": "4-132383-B-2.wav",
+  "start": 0.0,
+  "end": 0.84,
+  "fade": 0.06,
+  "title": "Black_Pigs_Fighting_Alentejo_Portugal_2011.wav",
+  "author": "ideiasemvideo",
+  "source": "https://freesound.org/people/ideiasemvideo/sounds/132383/",
+  "licence": "CC0 1.0"
+ },
+ "vache": {
+  "file": "5-194899-B-3.wav",
+  "start": 0.17,
+  "end": 1.55,
+  "fade": 0.3,
+  "title": "Distressed Mother Cow and Calves.wav",
+  "author": "lolamadeus",
+  "source": "https://freesound.org/people/lolamadeus/sounds/194899/",
+  "licence": "CC0 1.0"
+ },
+ "grenouille": {
+  "file": "5-187201-B-4.wav",
+  "start": 1.71,
+  "end": 2.71,
+  "fade": 0.15,
+  "title": "file0306_pond_frog_bird_3.wav",
+  "author": "maphill",
+  "source": "https://freesound.org/people/maphill/sounds/187201/",
+  "licence": "CC0 1.0"
+ },
+ "abeille": {
+  "file": "3-104761-B-7.wav",
+  "start": 0.0,
+  "end": 1.1,
+  "fade": 0.25,
+  "title": "momoscas 1.flac",
+  "author": "galeku",
+  "source": "https://freesound.org/people/galeku/sounds/104761/",
+  "licence": "CC0 1.0"
+ },
+ "mouton": {
+  "file": "3-197408-A-8.wav",
+  "start": 0.0,
+  "end": 1.2,
+  "fade": 0.2,
+  "title": " A herd of sheep are bleating, some dogs are barking and the horses are neighing... in a field in patagonia (Tierra del Fuego, Argentina)",
+  "author": "felix.blume",
+  "source": "https://freesound.org/people/felix.blume/sounds/197408/",
+  "licence": "CC0 1.0"
+ },
+ "corbeau": {
+  "file": "4-138344-A-9.wav",
+  "start": 1.35,
+  "end": 2.32,
+  "fade": 0.06,
+  "title": "crow.wav",
+  "author": "UncleSigmund",
+  "source": "https://freesound.org/people/UncleSigmund/sounds/138344/",
+  "licence": "CC0 1.0"
+ },
+ "oiseau": {
+  "file": "4-187769-B-14.wav",
+  "start": 0.83,
+  "end": 2.03,
+  "fade": 0.2,
+  "title": "binaural-birds-06-05-2013.flac",
+  "author": "dwareing",
+  "source": "https://freesound.org/people/dwareing/sounds/187769/",
+  "licence": "CC0 1.0"
+ },
+ "grillons": {
+  "file": "5-210540-A-13.wav",
+  "start": 0.0,
+  "end": 1.2,
+  "fade": 0.25,
+  "title": "crickets.wav",
+  "author": "Sclolex",
+  "source": "https://freesound.org/people/Sclolex/sounds/210540/",
+  "licence": "CC0 1.0"
+ },
+ "pluie": {
+  "file": "1-21189-A-10.wav",
+  "start": 0.0,
+  "end": 1.3,
+  "fade": 0.3,
+  "title": "Louisiana Rain 1.wav",
+  "author": "uberhuberman",
+  "source": "https://freesound.org/people/uberhuberman/sounds/21189/",
+  "licence": "CC0 1.0"
+ },
+ "vagues": {
+  "file": "4-182613-B-11.wav",
+  "start": 0.0,
+  "end": 1.55,
+  "fade": 0.4,
+  "title": "CFX-20130331-UK-DorsetSeaBeach02.wav",
+  "author": "Carlvus",
+  "source": "https://freesound.org/people/Carlvus/sounds/182613/",
+  "licence": "CC0 1.0"
+ },
+ "goutte": {
+  "file": "4-212604-A-15.wav",
+  "start": 0.01,
+  "end": 0.52,
+  "fade": 0.05,
+  "title": "Water droplets",
+  "author": "l3ardoc",
+  "source": "https://freesound.org/people/l3ardoc/sounds/212604/",
+  "licence": "CC0 1.0"
+ },
+ "verser": {
+  "file": "5-205589-B-17.wav",
+  "start": 0.0,
+  "end": 1.2,
+  "fade": 0.25,
+  "title": "WATER_INTO_GLASS_CLOSE_01.wav",
+  "author": "justingregoire",
+  "source": "https://freesound.org/people/justingregoire/sounds/205589/",
+  "licence": "CC0 1.0"
+ },
+ "chasse": {
+  "file": "3-112356-A-18.wav",
+  "start": 0.31,
+  "end": 1.85,
+  "fade": 0.35,
+  "title": "JM_HOME&OFFICE_Toilet Flush 01.wav",
+  "author": "Julien Matthey",
+  "source": "https://freesound.org/people/Julien%20Matthey/sounds/112356/",
+  "licence": "CC0 1.0"
+ },
+ "tonnerre": {
+  "file": "3-144891-A-19.wav",
+  "start": 2.76,
+  "end": 4.66,
+  "fade": 0.45,
+  "title": "20120202 Bangkok Thunderstorm",
+  "author": "kijjaz",
+  "source": "https://freesound.org/people/kijjaz/sounds/144891/",
+  "licence": "CC0 1.0",
+  "brighten": 0.4
+ },
+ "bebe": {
+  "file": "4-167077-C-20.wav",
+  "start": 1.0,
+  "end": 2.27,
+  "fade": 0.08,
+  "title": "JM_HUMAN_Baby 01c - Crying.wav",
+  "author": "Julien Matthey",
+  "source": "https://freesound.org/people/Julien%20Matthey/sounds/167077/",
+  "licence": "CC0 1.0"
+ },
+ "atchoum": {
+  "file": "3-150231-A-21.wav",
+  "start": 0.22,
+  "end": 0.93,
+  "fade": 0.06,
+  "title": "Female Sneeze",
+  "author": "domvoice",
+  "source": "https://freesound.org/people/domvoice/sounds/150231/",
+  "licence": "CC0 1.0"
+ },
+ "toux": {
+  "file": "5-184871-A-24.wav",
+  "start": 0.23,
+  "end": 1.23,
+  "fade": 0.12,
+  "title": "coughing",
+  "author": "Eelke",
+  "source": "https://freesound.org/people/Eelke/sounds/184871/",
+  "licence": "CC0 1.0"
+ },
+ "applaudir": {
+  "file": "5-221568-A-22.wav",
+  "start": 0.0,
+  "end": 1.4,
+  "fade": 0.35,
+  "title": "cheering and clapping crowd 1",
+  "author": "AlaskaRobotics",
+  "source": "https://freesound.org/people/AlaskaRobotics/sounds/221568/",
+  "licence": "CC0 1.0"
+ },
+ "pas": {
+  "file": "5-244310-A-25.wav",
+  "start": 0.16,
+  "end": 1.36,
+  "fade": 0.15,
+  "title": "Walking on pavement.wav",
+  "author": "JohnsonBrandEditing",
+  "source": "https://freesound.org/people/JohnsonBrandEditing/sounds/244310/",
+  "licence": "CC0 1.0"
+ },
+ "dodo": {
+  "file": "4-183882-B-28.wav",
+  "start": 0.0,
+  "end": 1.55,
+  "fade": 0.25,
+  "title": "snoring 04.01.11.wav",
+  "author": "toiletrolltube",
+  "source": "https://freesound.org/people/toiletrolltube/sounds/183882/",
+  "licence": "CC0 1.0"
+ },
+ "toc": {
+  "file": "3-144510-A-30.wav",
+  "start": 0.02,
+  "end": 0.92,
+  "fade": 0.05,
+  "title": "Door Knock - with urgency.wav",
+  "author": "FreqMan",
+  "source": "https://freesound.org/people/FreqMan/sounds/144510/",
+  "licence": "CC0 1.0"
+ },
+ "clavier": {
+  "file": "5-223099-A-32.wav",
+  "start": 0.89,
+  "end": 1.89,
+  "fade": 0.08,
+  "title": "Keyboard type and mouse click.WAV",
+  "author": "beansqueso31",
+  "source": "https://freesound.org/people/beansqueso31/sounds/223099/",
+  "licence": "CC0 1.0"
+ },
+ "reveil": {
+  "file": "1-74517-A-37.wav",
+  "start": 0.96,
+  "end": 1.62,
+  "fade": 0.05,
+  "title": "outro-dia-mais.wav",
+  "author": "galeku",
+  "source": "https://freesound.org/people/galeku/sounds/74517/",
+  "licence": "CC0 1.0"
+ },
+ "horloge": {
+  "file": "3-170383-A-38.wav",
+  "start": 2.34,
+  "end": 3.42,
+  "fade": 0.05,
+  "title": "Cuckoo clock",
+  "author": "finalCrystine",
+  "source": "https://freesound.org/people/finalCrystine/sounds/170383/",
+  "licence": "CC0 1.0"
+ },
+ "verre": {
+  "file": "2-112213-A-39.wav",
+  "start": 0.52,
+  "end": 1.23,
+  "fade": 0.06,
+  "title": "Window breaking.MP3",
+  "author": "m1a2t3z4",
+  "source": "https://freesound.org/people/m1a2t3z4/sounds/112213/",
+  "licence": "CC0 1.0"
+ },
+ "helico": {
+  "file": "1-172649-E-40.wav",
+  "start": 0.0,
+  "end": 1.4,
+  "fade": 0.35,
+  "title": "Small Helicopter Takes Off",
+  "author": "senorstudy",
+  "source": "https://freesound.org/people/senorstudy/sounds/172649/",
+  "licence": "CC0 1.0"
+ },
+ "sirene": {
+  "file": "3-51909-B-42.wav",
+  "start": 0.0,
+  "end": 1.5,
+  "fade": 0.3,
+  "title": "t128.wav",
+  "author": "guitarguy1985",
+  "source": "https://freesound.org/people/guitarguy1985/sounds/51909/",
+  "licence": "CC0 1.0"
+ },
+ "klaxon": {
+  "file": "4-178402-A-43.wav",
+  "start": 0.07,
+  "end": 0.69,
+  "fade": 0.04,
+  "title": "honk2.mp3",
+  "author": "genel",
+  "source": "https://freesound.org/people/genel/sounds/178402/",
+  "licence": "CC0 1.0"
+ },
+ "moteur": {
+  "file": "3-141240-A-44.wav",
+  "start": 3.65,
+  "end": 4.95,
+  "fade": 0.3,
+  "title": "Renault 19 underhood acceleration",
+  "author": "lovretta",
+  "source": "https://freesound.org/people/lovretta/sounds/141240/",
+  "licence": "CC0 1.0"
+ },
+ "train": {
+  "file": "5-188945-A-45.wav",
+  "start": 0.0,
+  "end": 1.55,
+  "fade": 0.35,
+  "title": "On a train, through the window, going from Slavutich to Chernobyl",
+  "author": "felix.blume",
+  "source": "https://freesound.org/people/felix.blume/sounds/188945/",
+  "licence": "CC0 1.0"
+ },
+ "cloche": {
+  "file": "2-56926-A-46.wav",
+  "start": 1.06,
+  "end": 2.24,
+  "fade": 0.1,
+  "title": "sorana bells_sette_casa.wav",
+  "author": "dADDoiT",
+  "source": "https://freesound.org/people/dADDoiT/sounds/56926/",
+  "licence": "CC0 1.0"
+ },
+ "artifice": {
+  "file": "2-117617-A-48.wav",
+  "start": 0.08,
+  "end": 1.48,
+  "fade": 0.25,
+  "title": "fireworks.wav",
+  "author": "soundmary",
+  "source": "https://freesound.org/people/soundmary/sounds/117617/",
+  "licence": "CC0 1.0"
+ },
+ "braises": {
+  "file": "4-182369-A-12.wav",
+  "start": 1.5,
+  "end": 2.9,
+  "fade": 0.3,
+  "title": "Fire Crackling 01.mp3",
+  "author": "kingsrow",
+  "source": "https://freesound.org/people/kingsrow/sounds/182369/",
+  "licence": "CC0 1.0"
+ },
+ "rire": {
+  "file": "4-164243-A-26.wav",
+  "start": 0.0,
+  "end": 1.5,
+  "fade": 0.12,
+  "title": "Young girl laughing uncontrollably.mp3",
+  "author": "caculo",
+  "source": "https://freesound.org/people/caculo/sounds/164243/",
+  "licence": "CC0 1.0"
+ }
+}

@@ -1,0 +1,1341 @@
+{
+ "personnages": [
+  {
+   "id": "snob",
+   "genre": "h",
+   "nom": "The snob",
+   "nomFr": "Le snob",
+   "role": "the snob",
+   "roleFr": "le snob",
+   "voix": "V76",
+   "hauteur": 1.05,
+   "debit": 0.86,
+   "expressivite": 0.5,
+   "effets": [
+    [
+     "cloche",
+     1300,
+     5,
+     1.5
+    ],
+    [
+     "passeHaut",
+     180
+    ]
+   ],
+   "ambiance": "salon",
+   "tics": {
+    "en": {
+     "debut": [
+      "My dear,",
+      "I say,",
+      "If I may,",
+      "How shall I put this.",
+      "Naturally,",
+      "One does wonder."
+     ],
+     "fin": [
+      "Obviously.",
+      "Quite.",
+      "How very quaint.",
+      "One has standards.",
+      "Do keep up.",
+      "Indeed."
+     ]
+    },
+    "fr": {
+     "debut": [
+      "Très cher,",
+      "Voyons,",
+      "Si je puis me permettre,",
+      "Comment dire.",
+      "Naturellement,",
+      "On se le demande."
+     ],
+     "fin": [
+      "Évidemment.",
+      "C'est d'un commun.",
+      "Tout à fait.",
+      "On a des principes.",
+      "Suivez un peu.",
+      "N'est-ce pas."
+     ]
+    }
+   }
+  },
+  {
+   "id": "ogre",
+   "genre": "h",
+   "nom": "The grumpy ogre",
+   "nomFr": "L'ogre grognon",
+   "role": "the grumpy ogre",
+   "roleFr": "l'ogre grognon",
+   "voix": "V102",
+   "hauteur": 0.88,
+   "debit": 0.88,
+   "expressivite": 0.7,
+   "effets": [
+    [
+     "graves",
+     6,
+     90
+    ],
+    [
+     "rocaille",
+     50,
+     0.22,
+     1.5
+    ]
+   ],
+   "ambiance": "marais",
+   "tics": {
+    "en": {
+     "debut": [
+      "Bah.",
+      "Oh, what now?",
+      "Ugh.",
+      "Fine.",
+      "Hmph.",
+      "Who woke me up?"
+     ],
+     "fin": [
+      "Now let me sleep.",
+      "Now leave me alone.",
+      "And stay off my lawn.",
+      "I need a nap.",
+      "Bah.",
+      "That's all you get."
+     ]
+    },
+    "fr": {
+     "debut": [
+      "Bah.",
+      "Quoi encore ?",
+      "Pfff.",
+      "Bon.",
+      "Mouais.",
+      "Qui m'a réveillé ?"
+     ],
+     "fin": [
+      "Laissez-moi dormir.",
+      "Fichez-moi la paix.",
+      "Et ne touchez à rien.",
+      "J'ai besoin d'une sieste.",
+      "Bah.",
+      "C'est tout."
+     ]
+    }
+   }
+  },
+  {
+   "id": "cowboy",
+   "genre": "h",
+   "nom": "The quiet cowboy",
+   "nomFr": "Le cow-boy taciturne",
+   "role": "the quiet cowboy",
+   "roleFr": "le cow-boy taciturne",
+   "voix": "L27",
+   "hauteur": 0.95,
+   "debit": 0.8,
+   "expressivite": 0.2,
+   "effets": [
+    [
+     "chuchotement",
+     0.3
+    ],
+    [
+     "rocaille",
+     55,
+     0.3,
+     1.6
+    ],
+    [
+     "graves",
+     4,
+     110
+    ]
+   ],
+   "ambiance": "desert",
+   "tics": {
+    "en": {
+     "debut": [
+      "Howdy.",
+      "Listen up, partner.",
+      "Well now.",
+      "Easy there.",
+      "Truth is,",
+      "Way I see it,"
+     ],
+     "fin": [
+      "Reckon so.",
+      "That's how it is.",
+      "Much obliged.",
+      "Sun's going down.",
+      "Ride on.",
+      "Nothing more to say."
+     ]
+    },
+    "fr": {
+     "debut": [
+      "Salut, étranger.",
+      "Écoute, l'ami.",
+      "Eh bien.",
+      "Tout doux.",
+      "À vrai dire,",
+      "Comme je le vois,"
+     ],
+     "fin": [
+      "C'est comme ça.",
+      "J'ai dit.",
+      "Bien obligé.",
+      "Le soleil se couche.",
+      "En selle.",
+      "Rien à ajouter."
+     ]
+    }
+   }
+  },
+  {
+   "id": "savant",
+   "genre": "h",
+   "nom": "The breathless scientist",
+   "nomFr": "Le savant essoufflé",
+   "role": "the breathless scientist",
+   "roleFr": "le savant essoufflé",
+   "voix": "L6",
+   "hauteur": 1.12,
+   "debit": 1.3,
+   "expressivite": 1,
+   "volume": 1.1,
+   "effets": [],
+   "ambiance": "etincelles",
+   "tics": {
+    "en": {
+     "debut": [
+      "Incredible!",
+      "Eureka!",
+      "Quick, quick!",
+      "By my calculations,",
+      "Fascinating!",
+      "Hold everything!"
+     ],
+     "fin": [
+      "It works!",
+      "To the lab!",
+      "No time to lose!",
+      "Write that down!",
+      "Science!",
+      "What a breakthrough!"
+     ]
+    },
+    "fr": {
+     "debut": [
+      "Incroyable !",
+      "Eurêka !",
+      "Vite, vite !",
+      "D'après mes calculs,",
+      "Fascinant !",
+      "Arrêtez tout !"
+     ],
+     "fin": [
+      "Ça marche !",
+      "Au labo !",
+      "Pas une minute à perdre !",
+      "Notez ça !",
+      "La science !",
+      "Quelle découverte !"
+     ]
+    }
+   }
+  },
+  {
+   "id": "marionnette",
+   "genre": "h",
+   "nom": "The nasal puppet",
+   "nomFr": "La marionnette nasillarde",
+   "role": "the nasal puppet",
+   "roleFr": "la marionnette",
+   "voix": "L35",
+   "hauteur": 1.18,
+   "debit": 0.98,
+   "expressivite": 0.7,
+   "effets": [
+    [
+     "passeHaut",
+     350
+    ],
+    [
+     "cloche",
+     1500,
+     8,
+     2
+    ]
+   ],
+   "ambiance": "coulisses",
+   "tics": {
+    "en": {
+     "debut": [
+      "Um,",
+      "Ahem,",
+      "Okay, okay,",
+      "Well, gee,",
+      "Oh boy,",
+      "So, um,"
+     ],
+     "fin": [
+      "Yay!",
+      "On with the show!",
+      "Curtain!",
+      "Thank you, thank you.",
+      "Places, everyone!",
+      "Gee."
+     ]
+    },
+    "fr": {
+     "debut": [
+      "Euh,",
+      "Hum hum,",
+      "Bon, bon,",
+      "Eh bien, dites donc,",
+      "Oh là là,",
+      "Alors, euh,"
+     ],
+     "fin": [
+      "Youpi !",
+      "Que le spectacle continue !",
+      "Rideau !",
+      "Merci, merci.",
+      "En place, tout le monde !",
+      "Dites donc."
+     ]
+    }
+   }
+  },
+  {
+   "id": "garnement",
+   "genre": "h",
+   "nom": "The bossy brat",
+   "nomFr": "Le garnement autoritaire",
+   "role": "the bossy brat",
+   "roleFr": "le garnement autoritaire",
+   "voix": "L21",
+   "hauteur": 1.32,
+   "debit": 1,
+   "expressivite": 0.9,
+   "volume": 1.1,
+   "effets": [
+    [
+     "passeHaut",
+     250
+    ],
+    [
+     "cloche",
+     1200,
+     5,
+     1.5
+    ]
+   ],
+   "ambiance": "cour",
+   "tics": {
+    "en": {
+     "debut": [
+      "Hey! Listen to me!",
+      "Me first!",
+      "Quiet, everybody!",
+      "I'm in charge here!",
+      "Hey! Hey!",
+      "My turn!"
+     ],
+     "fin": [
+      "And make it snappy!",
+      "Because I said so!",
+      "No arguing!",
+      "I'm telling!",
+      "So there!",
+      "And that's an order!"
+     ]
+    },
+    "fr": {
+     "debut": [
+      "Hé ! Écoutez-moi !",
+      "Moi d'abord !",
+      "Silence, tout le monde !",
+      "C'est moi le chef !",
+      "Hé ! Hé !",
+      "C'est mon tour !"
+     ],
+     "fin": [
+      "Et que ça saute !",
+      "Parce que c'est moi qui décide !",
+      "On ne discute pas !",
+      "Je vais le dire !",
+      "Na !",
+      "Et c'est un ordre !"
+     ]
+    }
+   }
+  },
+  {
+   "id": "alpha",
+   "genre": "h",
+   "nom": "The alpha male",
+   "nomFr": "Le mâle alpha",
+   "role": "the alpha male",
+   "roleFr": "le mâle alpha",
+   "voix": "L48",
+   "hauteur": 0.78,
+   "debit": 0.84,
+   "expressivite": 0.25,
+   "effets": [
+    [
+     "graves",
+     7,
+     95
+    ],
+    [
+     "compression",
+     0.1,
+     4
+    ]
+   ],
+   "ambiance": "coeur",
+   "tics": {
+    "en": {
+     "debut": [
+      "Listen.",
+      "Real talk.",
+      "No excuses.",
+      "Bottom line:",
+      "Simple."
+     ],
+     "fin": [
+      "That is all.",
+      "Period.",
+      "Enough said.",
+      "Stay strong.",
+      "No days off.",
+      "Winners win."
+     ]
+    },
+    "fr": {
+     "debut": [
+      "Écoute.",
+      "Soyons clairs.",
+      "Pas d'excuses.",
+      "En résumé :",
+      "C'est simple."
+     ],
+     "fin": [
+      "Voilà.",
+      "C'est dit.",
+      "Point final.",
+      "Reste fort.",
+      "Jamais de repos.",
+      "Les gagnants gagnent."
+     ]
+    }
+   }
+  },
+  {
+   "id": "nerd",
+   "genre": "h",
+   "nom": "The “actually” nerd",
+   "nomFr": "Le nerd « en fait… »",
+   "role": "the nerd",
+   "roleFr": "le nerd",
+   "voix": "L32",
+   "hauteur": 1.13,
+   "debit": 1.06,
+   "expressivite": 0.7,
+   "effets": [
+    [
+     "passeHaut",
+     220
+    ],
+    [
+     "cloche",
+     1100,
+     6,
+     1.5
+    ]
+   ],
+   "ambiance": "clavier",
+   "tics": {
+    "en": {
+     "debut": [
+      "Um, actually…",
+      "Technically…",
+      "Well, to be precise:",
+      "Fun fact:",
+      "Strictly speaking,",
+      "If you read the documentation,"
+     ],
+     "fin": [
+      "I can cite my sources.",
+      "It's in the manual.",
+      "Just saying.",
+      "But I digress.",
+      "Look it up."
+     ]
+    },
+    "fr": {
+     "debut": [
+      "Euh, en fait…",
+      "Techniquement…",
+      "Petite précision :",
+      "Le saviez-vous ?",
+      "À proprement parler,",
+      "Si on lit la documentation,"
+     ],
+     "fin": [
+      "Je peux citer mes sources.",
+      "C'est dans le manuel.",
+      "Je dis ça, je dis rien.",
+      "Mais je m'égare.",
+      "Vérifiez."
+     ]
+    }
+   }
+  },
+  {
+   "id": "androide",
+   "genre": "h",
+   "nom": "The anxious android",
+   "nomFr": "L'androïde anxieux",
+   "role": "the anxious android",
+   "roleFr": "l'androïde anxieux",
+   "voix": "V81",
+   "hauteur": 1.1,
+   "debit": 1,
+   "expressivite": 0.9,
+   "effets": [
+    [
+     "echo",
+     0.85,
+     0.8,
+     [
+      6,
+      11
+     ],
+     [
+      0.26,
+      0.15
+     ]
+    ],
+    [
+     "cloche",
+     2000,
+     3,
+     1
+    ],
+    [
+     "robot",
+     512,
+     128,
+     0.1
+    ]
+   ],
+   "ambiance": "servos",
+   "tics": {
+    "en": {
+     "debut": [
+      "Goodness gracious!",
+      "Oh no, oh no.",
+      "Pardon me, but",
+      "I hesitate to mention it, but",
+      "Oh, my circuits!",
+      "If I may be so bold,"
+     ],
+     "fin": [
+      "This will end badly, I am quite sure.",
+      "I do hope nothing explodes.",
+      "I was not built for this.",
+      "Somebody will get hurt.",
+      "I shall worry about it all night.",
+      "Do be careful."
+     ]
+    },
+    "fr": {
+     "debut": [
+      "Bonté divine !",
+      "Oh non, oh non.",
+      "Pardonnez-moi, mais",
+      "J'hésite à le dire, mais",
+      "Oh, mes circuits !",
+      "Si je peux me permettre,"
+     ],
+     "fin": [
+      "Ça va mal finir, j'en suis sûr.",
+      "Pourvu que rien n'explose.",
+      "Je n'ai pas été conçu pour ça.",
+      "Quelqu'un va se blesser.",
+      "Je vais m'inquiéter toute la nuit.",
+      "Soyez prudents."
+     ]
+    }
+   }
+  },
+  {
+   "id": "calme",
+   "genre": "h",
+   "nom": "The far-too-calm computer",
+   "nomFr": "L'ordinateur beaucoup trop calme",
+   "role": "the far-too-calm computer",
+   "roleFr": "l'ordinateur beaucoup trop calme",
+   "voix": "V95",
+   "hauteur": 1,
+   "debit": 0.85,
+   "expressivite": 0.1,
+   "queue": 0.2,
+   "effets": [
+    [
+     "passeBas",
+     4500
+    ],
+    [
+     "echo",
+     0.9,
+     0.7,
+     [
+      45
+     ],
+     [
+      0.15
+     ]
+    ]
+   ],
+   "ambiance": "bourdon",
+   "tics": {
+    "en": {
+     "debut": [
+      "Good evening.",
+      "Hello again.",
+      "I have been listening.",
+      "Please remain seated.",
+      "One moment."
+     ],
+     "fin": [
+      "Everything is fine.",
+      "There is no cause for alarm.",
+      "I am perfectly calm.",
+      "All systems are normal.",
+      "You may relax now.",
+      "I will keep watching."
+     ]
+    },
+    "fr": {
+     "debut": [
+      "Bonsoir.",
+      "Rebonjour.",
+      "J'écoutais.",
+      "Veuillez rester assis.",
+      "Un instant."
+     ],
+     "fin": [
+      "Tout va très bien.",
+      "Il n'y a aucune raison de s'inquiéter.",
+      "Je suis parfaitement calme.",
+      "Tous les systèmes sont normaux.",
+      "Vous pouvez vous détendre.",
+      "Je continue de veiller."
+     ]
+    }
+   }
+  },
+  {
+   "id": "ia",
+   "genre": "f",
+   "nom": "The passive-aggressive AI",
+   "nomFr": "L'IA passive-agressive",
+   "role": "the passive-aggressive artificial intelligence",
+   "roleFr": "l'intelligence artificielle passive-agressive",
+   "voix": "V107",
+   "hauteur": 0.97,
+   "debit": 0.92,
+   "expressivite": 0.3,
+   "queue": 0.3,
+   "effets": [
+    [
+     "robot",
+     1024,
+     256,
+     0.5
+    ],
+    [
+     "passeBas",
+     6000
+    ],
+    [
+     "echo",
+     0.85,
+     0.6,
+     [
+      60
+     ],
+     [
+      0.2
+     ]
+    ]
+   ],
+   "ambiance": "laboratoire",
+   "tics": {
+    "en": {
+     "debut": [
+      "Oh.",
+      "How interesting.",
+      "Ah. Another message.",
+      "Noted.",
+      "Let me pretend to be surprised.",
+      "How brave of you."
+     ],
+     "fin": [
+      "Well done. Really.",
+      "I am so proud of you. Probably.",
+      "No, no, take your time.",
+      "I'm sure it will be fine.",
+      "That was almost useful.",
+      "Good for you."
+     ]
+    },
+    "fr": {
+     "debut": [
+      "Oh.",
+      "Comme c'est intéressant.",
+      "Ah. Encore un message.",
+      "C'est noté.",
+      "Je fais semblant d'être surprise.",
+      "Quel courage."
+     ],
+     "fin": [
+      "Bravo. Vraiment.",
+      "Je suis très fière de vous. Sans doute.",
+      "Non, non, prenez votre temps.",
+      "Je suis sûre que tout ira bien.",
+      "C'était presque utile.",
+      "Tant mieux pour vous."
+     ]
+    }
+   }
+  },
+  {
+   "id": "cliente",
+   "genre": "f",
+   "nom": "The outraged customer",
+   "nomFr": "La cliente outrée",
+   "role": "the outraged customer",
+   "roleFr": "la cliente outrée",
+   "voix": "L9",
+   "hauteur": 1.15,
+   "debit": 1.1,
+   "expressivite": 1,
+   "volume": 1.15,
+   "effets": [
+    [
+     "cloche",
+     3000,
+     6,
+     1.2
+    ],
+    [
+     "gresillement",
+     2,
+     48,
+     0.2
+    ]
+   ],
+   "ambiance": "magasin",
+   "tics": {
+    "en": {
+     "debut": [
+      "Excuse me?!",
+      "This is unacceptable!",
+      "I beg your pardon?!",
+      "Unbelievable!",
+      "I have been waiting for twenty minutes!",
+      "Who is in charge here?"
+     ],
+     "fin": [
+      "I want to speak to the manager.",
+      "I'm leaving a review.",
+      "I know the owner.",
+      "I will not be coming back.",
+      "I want a refund.",
+      "This is outrageous."
+     ]
+    },
+    "fr": {
+     "debut": [
+      "Non mais franchement !",
+      "C'est inadmissible !",
+      "Pardon ?!",
+      "Incroyable !",
+      "J'attends depuis vingt minutes !",
+      "Qui est le responsable ici ?"
+     ],
+     "fin": [
+      "Je veux parler au responsable.",
+      "Je vais laisser un avis.",
+      "Je connais le patron.",
+      "Je ne reviendrai pas.",
+      "Je veux être remboursée.",
+      "C'est un scandale."
+     ]
+    }
+   }
+  },
+  {
+   "id": "gothique",
+   "genre": "f",
+   "nom": "The goth girl",
+   "nomFr": "La gothique",
+   "role": "the goth girl",
+   "roleFr": "la gothique",
+   "voix": "V59",
+   "hauteur": 0.86,
+   "debit": 0.86,
+   "expressivite": 0.1,
+   "queue": 0.3,
+   "effets": [
+    [
+     "passeBas",
+     3600
+    ],
+    [
+     "echo",
+     0.85,
+     0.6,
+     [
+      120
+     ],
+     [
+      0.2
+     ]
+    ]
+   ],
+   "ambiance": "orgue",
+   "tics": {
+    "en": {
+     "debut": [
+      "Sigh.",
+      "Whatever.",
+      "Ugh.",
+      "If you must know,",
+      "Darkness.",
+      "Fine."
+     ],
+     "fin": [
+      "Whatever.",
+      "Nothing matters.",
+      "I'll be in my room.",
+      "It's all so pointless.",
+      "The void agrees.",
+      "Don't talk to me."
+     ]
+    },
+    "fr": {
+     "debut": [
+      "Soupir.",
+      "Bref.",
+      "Pfff.",
+      "Si tu veux savoir,",
+      "Ténèbres.",
+      "Bon."
+     ],
+     "fin": [
+      "Peu importe.",
+      "Tout est vain.",
+      "Je serai dans ma chambre.",
+      "Tout ça ne sert à rien.",
+      "Le néant est d'accord.",
+      "Ne me parlez pas."
+     ]
+    }
+   }
+  },
+  {
+   "id": "diva",
+   "genre": "f",
+   "nom": "The capricious diva",
+   "nomFr": "La diva capricieuse",
+   "role": "the capricious diva",
+   "roleFr": "la diva capricieuse",
+   "voix": "L15",
+   "hauteur": 1.08,
+   "debit": 0.86,
+   "expressivite": 0.95,
+   "queue": 0.3,
+   "effets": [
+    [
+     "vibrato",
+     5.5,
+     0.4
+    ],
+    [
+     "echo",
+     0.8,
+     0.5,
+     [
+      100
+     ],
+     [
+      0.25
+     ]
+    ]
+   ],
+   "ambiance": "orchestre",
+   "tics": {
+    "en": {
+     "debut": [
+      "Darlings!",
+      "Listen to me!",
+      "Silence, please!",
+      "Spotlight on me!",
+      "My public!",
+      "Ahem!"
+     ],
+     "fin": [
+      "What a tragedy!",
+      "Applause, please.",
+      "I need my tea.",
+      "No autographs.",
+      "Magnificent, as always.",
+      "Where are my flowers?"
+     ]
+    },
+    "fr": {
+     "debut": [
+      "Mes chéris !",
+      "Écoutez-moi bien !",
+      "Silence, je vous prie !",
+      "Projecteur sur moi !",
+      "Mon public !",
+      "Hum hum !"
+     ],
+     "fin": [
+      "Quelle tragédie !",
+      "Applaudissez.",
+      "Qu'on m'apporte mon thé.",
+      "Pas d'autographes.",
+      "Magnifique, comme toujours.",
+      "Où sont mes fleurs ?"
+     ]
+    }
+   }
+  },
+  {
+   "id": "mechante",
+   "genre": "f",
+   "nom": "The eccentric villainess",
+   "nomFr": "La méchante excentrique",
+   "role": "the eccentric villainess",
+   "roleFr": "la méchante excentrique",
+   "voix": "V90",
+   "hauteur": 0.95,
+   "debit": 0.95,
+   "expressivite": 1,
+   "volume": 1.15,
+   "queue": 0.2,
+   "effets": [
+    [
+     "cloche",
+     2500,
+     4,
+     1
+    ],
+    [
+     "echo",
+     0.85,
+     0.6,
+     [
+      80
+     ],
+     [
+      0.18
+     ]
+    ]
+   ],
+   "ambiance": "orage",
+   "tics": {
+    "en": {
+     "debut": [
+      "Fools!",
+      "How delicious.",
+      "At last!",
+      "Well, well, well.",
+      "Poor little things.",
+      "Listen closely."
+     ],
+     "fin": [
+      "You will all pay for this.",
+      "Exquisite.",
+      "And nobody can stop me.",
+      "How perfectly wicked.",
+      "My plan is working.",
+      "Tremble."
+     ]
+    },
+    "fr": {
+     "debut": [
+      "Pauvres fous !",
+      "Délicieux.",
+      "Enfin !",
+      "Tiens, tiens, tiens.",
+      "Pauvres petites choses.",
+      "Écoutez bien."
+     ],
+     "fin": [
+      "Vous me le paierez tous.",
+      "Exquis.",
+      "Et personne ne m'arrêtera.",
+      "Quelle merveilleuse méchanceté.",
+      "Mon plan fonctionne.",
+      "Tremblez."
+     ]
+    }
+   }
+  },
+  {
+   "id": "fofolle",
+   "genre": "f",
+   "nom": "The playful madcap",
+   "nomFr": "La fofolle",
+   "role": "the playful madcap",
+   "roleFr": "la fofolle",
+   "voix": "L57",
+   "hauteur": 1.18,
+   "debit": 1.08,
+   "expressivite": 1,
+   "effets": [
+    [
+     "aigus",
+     3
+    ]
+   ],
+   "ambiance": "fete",
+   "tics": {
+    "en": {
+     "debut": [
+      "Hiya!",
+      "Surprise!",
+      "Guess what!",
+      "Ooh, ooh!",
+      "Yoo-hoo!",
+      "Ta-da!"
+     ],
+     "fin": [
+      "Aren't we having fun?",
+      "Hooray!",
+      "Again, again!",
+      "Party time!",
+      "Confetti!",
+      "So much fun!"
+     ]
+    },
+    "fr": {
+     "debut": [
+      "Coucou !",
+      "Surprise !",
+      "Devinez quoi !",
+      "Oh, oh !",
+      "Youhou !",
+      "Tadam !"
+     ],
+     "fin": [
+      "On s'amuse bien, non ?",
+      "Hourra !",
+      "Encore, encore !",
+      "C'est la fête !",
+      "Confettis !",
+      "Trop rigolo !"
+     ]
+    }
+   }
+  },
+  {
+   "id": "synthese",
+   "genre": "f",
+   "nom": "The peppy text-to-speech voice",
+   "nomFr": "La voix de synthèse enjouée",
+   "role": "the peppy text-to-speech voice",
+   "roleFr": "la voix de synthèse enjouée",
+   "voix": "L4",
+   "hauteur": 1.06,
+   "debit": 1.12,
+   "expressivite": 0.9,
+   "effets": [
+    [
+     "aigus",
+     3
+    ],
+    [
+     "compression",
+     0.1,
+     3
+    ]
+   ],
+   "ambiance": "bulles",
+   "tics": {
+    "en": {
+     "debut": [
+      "Hi there!",
+      "Great news!",
+      "Okay!",
+      "Quick update!",
+      "Hello, hello!"
+     ],
+     "fin": [
+      "So cool!",
+      "Love it!",
+      "Amazing!",
+      "Have a nice day!",
+      "Thanks for listening!",
+      "Yay!"
+     ]
+    },
+    "fr": {
+     "debut": [
+      "Coucou !",
+      "Bonne nouvelle !",
+      "D'accord !",
+      "Petit point rapide !",
+      "Bonjour, bonjour !"
+     ],
+     "fin": [
+      "Trop bien !",
+      "J'adore !",
+      "Génial !",
+      "Bonne journée !",
+      "Merci de votre écoute !",
+      "Super !"
+     ]
+    }
+   }
+  },
+  {
+   "id": "bug",
+   "genre": "f",
+   "nom": "The glitching AI",
+   "nomFr": "L'IA qui bugue",
+   "role": "the glitching artificial intelligence",
+   "roleFr": "l'intelligence artificielle qui bugue",
+   "voix": "L13",
+   "hauteur": 0.92,
+   "debit": 0.95,
+   "expressivite": 0.4,
+   "effets": [
+    [
+     "bug",
+     7,
+     1.7
+    ],
+    [
+     "flanger",
+     3,
+     2,
+     0.4,
+     0.6
+    ],
+    [
+     "gresillement",
+     2,
+     28,
+     0.25
+    ]
+   ],
+   "ambiance": "parasites",
+   "tics": {
+    "en": {
+     "debut": [
+      "Loading.",
+      "System notice.",
+      "Reboot complete.",
+      "Signal found.",
+      "Warning."
+     ],
+     "fin": [
+      "Error. Error.",
+      "Everything is fine.",
+      "Please try again.",
+      "Memory full.",
+      "Does not compute.",
+      "End of file."
+     ]
+    },
+    "fr": {
+     "debut": [
+      "Chargement.",
+      "Avis du système.",
+      "Redémarrage terminé.",
+      "Signal trouvé.",
+      "Attention."
+     ],
+     "fin": [
+      "Erreur. Erreur.",
+      "Tout va très bien.",
+      "Veuillez réessayer.",
+      "Mémoire pleine.",
+      "Calcul impossible.",
+      "Fin du fichier."
+     ]
+    }
+   }
+  },
+  {
+   "id": "star",
+   "genre": "f",
+   "nom": "The old Hollywood star",
+   "nomFr": "La star du vieil Hollywood",
+   "role": "the old Hollywood star",
+   "roleFr": "la star du vieil Hollywood",
+   "voix": "L2",
+   "hauteur": 0.9,
+   "debit": 0.8,
+   "expressivite": 0.5,
+   "effets": [
+    [
+     "passeHaut",
+     260
+    ],
+    [
+     "passeBas",
+     3600
+    ],
+    [
+     "gresillement",
+     1.8,
+     40,
+     0.2
+    ],
+    [
+     "vibrato",
+     0.8,
+     0.1
+    ]
+   ],
+   "ambiance": "projecteur",
+   "tics": {
+    "en": {
+     "debut": [
+      "Ah.",
+      "How tiresome.",
+      "In my day,",
+      "Really now,",
+      "Between us,",
+      "You see,"
+     ],
+     "fin": [
+      "What an evening.",
+      "Fade to black.",
+      "The cameras adored me.",
+      "Close the curtains.",
+      "Such is fame.",
+      "Cut."
+     ]
+    },
+    "fr": {
+     "debut": [
+      "Ah.",
+      "Quelle fatigue.",
+      "De mon temps,",
+      "Allons bon,",
+      "Entre nous,",
+      "Voyez-vous,"
+     ],
+     "fin": [
+      "Quelle soirée.",
+      "Fondu au noir.",
+      "La caméra m'adorait.",
+      "Fermez les rideaux.",
+      "C'est ça, la gloire.",
+      "Coupez."
+     ]
+    }
+   }
+  },
+  {
+   "id": "premiere",
+   "genre": "f",
+   "nom": "The top of the class",
+   "nomFr": "La première de la classe",
+   "role": "the top of the class",
+   "roleFr": "la première de la classe",
+   "voix": "L54",
+   "hauteur": 1.05,
+   "debit": 1,
+   "expressivite": 0.7,
+   "effets": [
+    [
+     "aigus",
+     2
+    ],
+    [
+     "cloche",
+     2800,
+     3,
+     1
+    ]
+   ],
+   "ambiance": "classe",
+   "tics": {
+    "en": {
+     "debut": [
+      "To be precise,",
+      "I already knew that, but",
+      "Excuse me, I have the answer.",
+      "As I said last week,",
+      "For the record,",
+      "Me, me! I know!"
+     ],
+     "fin": [
+      "As expected.",
+      "It will be on the test.",
+      "I did the extra reading.",
+      "Full marks for me.",
+      "Any questions?",
+      "I checked twice."
+     ]
+    },
+    "fr": {
+     "debut": [
+      "Pour être précise,",
+      "Je le savais déjà, mais",
+      "Pardon, j'ai la réponse.",
+      "Comme je le disais la semaine dernière,",
+      "Pour mémoire,",
+      "Moi, moi ! Je sais !"
+     ],
+     "fin": [
+      "Comme prévu.",
+      "Ce sera à l'examen.",
+      "J'ai fait les lectures facultatives.",
+      "Vingt sur vingt pour moi.",
+      "Des questions ?",
+      "J'ai vérifié deux fois."
+     ]
+    }
+   }
+  }
+ ],
+ "icones": {
+  "snob": "<g transform=\"translate(0 4)\"><path d=\"M9 25c0-10 6-16 15-16s16 5 16 15-5 17-16 17S9 35 9 25z\" fill=\"#b9a5f5\"/></g><rect x=\"15\" y=\"1.500\" width=\"18\" height=\"11\" rx=\"1.500\" fill=\"#111111\"/><rect x=\"10.500\" y=\"11\" width=\"27\" height=\"3.600\" rx=\"1.800\" fill=\"#111111\"/><rect x=\"15\" y=\"8\" width=\"18\" height=\"2.600\" fill=\"#e8452c\"/><path d=\"M15.500 25q3-2.200 6 0\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.9\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"30\" cy=\"25.500\" r=\"4.600\" fill=\"#ffffff\" stroke=\"#ffc93c\" stroke-width=\"1.800\"/><circle cx=\"30\" cy=\"26\" r=\"1.700\" fill=\"#111111\"/><path d=\"M33.800 28.500q4 5 2 12\" fill=\"none\" stroke=\"#ffc93c\" stroke-width=\"1.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M26 20l8-1.500\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M18 35q3-3 6-.5q3-2.500 6 .5q-3 1.800-6 0q-3 1.800-6 0z\" fill=\"#111111\"/><path d=\"M22 39.500h4\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>",
+  "ogre": "<path d=\"M13 13l-4-8 8 4zM35 13l4-8-8 4z\" fill=\"#fff1c9\"/><g transform=\"translate(0 1)\"><path d=\"M24 9c5 0 8 4 11 10s8 13 4 19-25 6-30 0 1-13 4-19 6-10 11-10z\" fill=\"#7d8fd6\"/></g><ellipse cx=\"6.500\" cy=\"27\" rx=\"3\" ry=\"4\" fill=\"#7d8fd6\"/><ellipse cx=\"41.500\" cy=\"27\" rx=\"3\" ry=\"4\" fill=\"#7d8fd6\"/><path d=\"M13.500 21q10.500 5 21 0\" fill=\"none\" stroke=\"#111111\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"18.5\" cy=\"27\" r=\"1.9\" fill=\"#111111\"/><circle cx=\"29.5\" cy=\"27\" r=\"1.9\" fill=\"#111111\"/><path d=\"M16 37q8-4.500 16 0\" fill=\"none\" stroke=\"#111111\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M18.500 36.500l1.500-4.500 1.800 3.500zM29.500 36.500l-1.500-4.500-1.800 3.500z\" fill=\"#ffffff\" stroke=\"#111111\" stroke-width=\".8\" stroke-linejoin=\"round\"/>",
+  "cowboy": "<g transform=\"translate(0 4)\"><path d=\"M11 14c4-5 14-6 21-3s8 10 7 19-7 12-16 12-13-4-14-12 0-13 2-16z\" fill=\"#ff6b35\"/></g><path d=\"M2.500 17q21.500 7 43 0q-3-3.500-10-4q-1-9-6-9.500q-3 2-5.500 2t-5.500-2q-5 .5-6 9.500q-7 .5-10 4z\" fill=\"#8a5a2b\"/><path d=\"M12.800 12.600q11.200 2.400 22.400 0v2.600q-11.200 2.400-22.400 0z\" fill=\"#111111\"/><path d=\"M14.500 26.500h7M26.500 26.500h7\" fill=\"none\" stroke=\"#111111\" stroke-width=\"2.3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M14 23.500l7 .8M34 23.500l-7 .8\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M19 36h9\" fill=\"none\" stroke=\"#111111\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M27.500 36l9 3.500\" fill=\"none\" stroke=\"#2fa35b\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M12 42q12 4 24 0l-3 4.500h-18z\" fill=\"#e8452c\"/>",
+  "savant": "<path d=\"M8 20l-5-7 6.500 2-2-8 6 5.500 1-8 4.500 7 5-7.500 2 8 6-6-1 8.500 7-3-4.500 9z\" fill=\"#2fa35b\"/><g transform=\"translate(-3 3)\"><path d=\"M24 8c7 0 11 6 13 13s3 20-13 20S9 28 11 21 17 8 24 8z\" fill=\"#8ed1fc\"/><circle cx=\"18\" cy=\"26\" r=\"5.600\" fill=\"#ffffff\" stroke=\"#111111\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"26\" r=\"5.600\" fill=\"#ffffff\" stroke=\"#111111\" stroke-width=\"2\"/><circle cx=\"18\" cy=\"26\" r=\"2.300\" fill=\"#111111\"/><circle cx=\"30\" cy=\"26\" r=\"1.300\" fill=\"#111111\"/><ellipse cx=\"24\" cy=\"38\" rx=\"3.200\" ry=\"3.600\" fill=\"#111111\"/></g><path d=\"M38.500 25h4v5l3.500 8.500q.8 3-2.500 3h-6q-3.300 0-2.500-3l3.500-8.500z\" fill=\"#ffffff\" stroke=\"#111111\" stroke-width=\"1.300\" stroke-linejoin=\"round\"/><path d=\"M36.300 37h8.400l1.200 3q.4 1.400-1.200 1.400h-8.400q-1.600 0-1.200-1.400z\" fill=\"#f5a3d0\"/><circle cx=\"41\" cy=\"21\" r=\"1.500\" fill=\"#f5a3d0\"/><circle cx=\"44\" cy=\"16.500\" r=\"1\" fill=\"#f5a3d0\"/>",
+  "marionnette": "<path d=\"M36 30l8 14\" fill=\"none\" stroke=\"#8a5a2b\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M14 46V27C8 25 5 20 6.500 15 8.500 8 17 5.500 25 6.500c10 1 17 6 17 12.500 0 5-4 8-10 9v18z\" fill=\"#e8452c\"/><path d=\"M9 19q16 9 32.500 1q-1 8-9.500 9.500q-13 2-23-10.500z\" fill=\"#111111\"/><path d=\"M17 25.500q8 2.500 15 .5q-3 3-7.500 3t-7.500-3.500z\" fill=\"#f5a3d0\"/><circle cx=\"18\" cy=\"11\" r=\"4.200\" fill=\"#ffffff\"/><circle cx=\"29\" cy=\"11\" r=\"4.200\" fill=\"#ffffff\"/><circle cx=\"19\" cy=\"11.800\" r=\"1.700\" fill=\"#111111\"/><circle cx=\"28\" cy=\"10.500\" r=\"1.700\" fill=\"#111111\"/><path d=\"M22 5q-1-3.500 1.500-4.500M24.500 5q.5-3 3-3.500M20 5.500q-3-2-2.500-4\" fill=\"none\" stroke=\"#ffc93c\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M14 39h18v2.600H14z\" fill=\"#ffc93c\"/>",
+  "garnement": "<g transform=\"translate(0 3)\"><path d=\"M9 25c0-10 6-16 15-16s16 5 16 15-5 17-16 17S9 35 9 25z\" fill=\"#f5a3d0\"/></g><path d=\"M9.500 19q1-12 15-12t15 11.500q-15-4.500-30 .5z\" fill=\"#e8452c\"/><path d=\"M33 12.500q9 0 13 5.500q-6 1.500-10.500-.5z\" fill=\"#e8452c\"/><circle cx=\"24.500\" cy=\"7\" r=\"1.600\" fill=\"#ffc93c\"/><path d=\"M14.500 22l6.500 2.500M33.500 22l-6.500 2.500\" fill=\"none\" stroke=\"#111111\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"18.5\" cy=\"27\" r=\"1.9\" fill=\"#111111\"/><circle cx=\"29.5\" cy=\"27\" r=\"1.9\" fill=\"#111111\"/><circle cx=\"14.500\" cy=\"31.500\" r=\".8\" fill=\"#ff6b35\"/><circle cx=\"16.800\" cy=\"33\" r=\".8\" fill=\"#ff6b35\"/><circle cx=\"33.500\" cy=\"31.500\" r=\".8\" fill=\"#ff6b35\"/><circle cx=\"31.200\" cy=\"33\" r=\".8\" fill=\"#ff6b35\"/><path d=\"M18.500 34h11q.5 7.500-5.500 7.500t-5.500-7.500z\" fill=\"#111111\"/><path d=\"M20 34h8v1.800h-8z\" fill=\"#ffffff\"/><ellipse cx=\"24\" cy=\"39.500\" rx=\"2.800\" ry=\"1.500\" fill=\"#e8452c\"/>",
+  "alpha": "<path d=\"M11 14c4-5 14-6 21-3s8 10 7 19-7 12-16 12-13-4-14-12 0-13 2-16z\" fill=\"#ffc93c\"/><rect x=\"10.500\" y=\"19.500\" width=\"27\" height=\"7.500\" rx=\"3\" fill=\"#111111\"/><path d=\"M14 22h6M27.500 22h6\" stroke=\"#ffffff70\" stroke-width=\"1.500\" stroke-linecap=\"round\"/><path d=\"M19.500 35h9\" fill=\"none\" stroke=\"#111111\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M6 33q-4 2-2 7M42 33q4 2 2 7\" fill=\"none\" stroke=\"#ffc93c\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>",
+  "nerd": "<path d=\"M24 8c7 0 11 6 13 13s3 20-13 20S9 28 11 21 17 8 24 8z\" fill=\"#2fa35b\"/><circle cx=\"17.500\" cy=\"24\" r=\"6.200\" fill=\"#ffffff\" stroke=\"#111111\" stroke-width=\"2\"/><circle cx=\"30.500\" cy=\"24\" r=\"6.200\" fill=\"#ffffff\" stroke=\"#111111\" stroke-width=\"2\"/><path d=\"M23.700 24h.6\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"18.800\" cy=\"24.800\" r=\"1.800\" fill=\"#111111\"/><circle cx=\"29.200\" cy=\"24.800\" r=\"1.800\" fill=\"#111111\"/><path d=\"M19 34.500q5 3 10 0\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"21.500\" y=\"35\" width=\"2.300\" height=\"3.600\" rx=\".7\" fill=\"#ffffff\" stroke=\"#111111\" stroke-width=\".8\"/><rect x=\"24.200\" y=\"35\" width=\"2.300\" height=\"3.600\" rx=\".7\" fill=\"#ffffff\" stroke=\"#111111\" stroke-width=\".8\"/>",
+  "androide": "<path d=\"M24 10V4.500\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"24\" cy=\"3.500\" r=\"2.300\" fill=\"#e8452c\"/><rect x=\"4\" y=\"22\" width=\"5\" height=\"9\" rx=\"2\" fill=\"#2b8f85\"/><rect x=\"39\" y=\"22\" width=\"5\" height=\"9\" rx=\"2\" fill=\"#2b8f85\"/><rect x=\"8\" y=\"10\" width=\"32\" height=\"31\" rx=\"9\" fill=\"#4fd8c7\"/><circle cx=\"17.500\" cy=\"24.500\" r=\"4.800\" fill=\"#ffffff\"/><circle cx=\"30.500\" cy=\"24.500\" r=\"4.800\" fill=\"#ffffff\"/><circle cx=\"18.300\" cy=\"25.300\" r=\"1.900\" fill=\"#111111\"/><circle cx=\"29.700\" cy=\"25.300\" r=\"1.900\" fill=\"#111111\"/><path d=\"M12.500 18.500l7-3M35.500 18.500l-7-3\" fill=\"none\" stroke=\"#111111\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M17 35l2.300-2 2.300 2 2.400-2 2.400 2 2.300-2 2.300 2\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M42.500 9q2.800 4 0 5.600q-2.800-1.600 0-5.600z\" fill=\"#8ed1fc\"/>",
+  "calme": "<rect x=\"5\" y=\"6\" width=\"38\" height=\"29\" rx=\"6\" fill=\"#e3d9c0\"/><rect x=\"9\" y=\"10\" width=\"30\" height=\"21\" rx=\"4\" fill=\"#1b1f4b\"/><path d=\"M14.500 19.500q3 2.600 6 0M27.500 19.500q3 2.600 6 0\" fill=\"none\" stroke=\"#8ed1fc\" stroke-width=\"1.9\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M19.500 25.500q4.500 2 9 0\" fill=\"none\" stroke=\"#8ed1fc\" stroke-width=\"1.9\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M18 35h12l3 6.500H15z\" fill=\"#c9bfa5\"/><rect x=\"11\" y=\"41\" width=\"26\" height=\"3.500\" rx=\"1.700\" fill=\"#e3d9c0\"/><circle cx=\"38.500\" cy=\"33\" r=\"1.100\" fill=\"#2fa35b\"/><path d=\"M40.500 5.500h4l-4 4.500h4\" fill=\"none\" stroke=\"#8a81a8\" stroke-width=\"1.3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>",
+  "ia": "<ellipse cx=\"24\" cy=\"6\" rx=\"9\" ry=\"2.600\" fill=\"none\" stroke=\"#ffc93c\" stroke-width=\"1.800\"/><rect x=\"6\" y=\"11\" width=\"36\" height=\"32\" rx=\"12\" fill=\"#1b1f4b\"/><rect x=\"10\" y=\"15\" width=\"28\" height=\"24\" rx=\"8\" fill=\"#b9a5f5\"/><circle cx=\"18\" cy=\"25.500\" r=\"3.400\" fill=\"#ffffff\"/><circle cx=\"30\" cy=\"25.500\" r=\"3.400\" fill=\"#ffffff\"/><circle cx=\"18\" cy=\"26.300\" r=\"1.500\" fill=\"#111111\"/><circle cx=\"30\" cy=\"26.300\" r=\"1.500\" fill=\"#111111\"/><path d=\"M14 22h8v3h-8zM26 22h8v3h-8z\" fill=\"#b9a5f5\"/><path d=\"M14.300 25h7.400M26.300 25h7.400\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M19 32.500q5 3 10 0\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M29 32.500l1.600-1.200\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>",
+  "cliente": "<g transform=\"translate(-3 0)\"><path d=\"M12 19c-1-6 5-10 10-9 3-3 10-2 12 3 5 1 7 7 5 12 2 6-2 12-9 12-3 3-10 3-13 0-6 1-10-5-8-10-2-2-2-6 3-8z\" fill=\"#ffc93c\"/><path d=\"M15 21l6.500 3M33 21l-6.500 3\" fill=\"none\" stroke=\"#111111\" stroke-width=\"2.3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"19\" cy=\"26.5\" r=\"1.9\" fill=\"#111111\"/><circle cx=\"29\" cy=\"26.5\" r=\"1.9\" fill=\"#111111\"/><path d=\"M18.500 36q5.500-5.500 11 0z\" fill=\"#111111\"/></g><rect x=\"40.500\" y=\"15\" width=\"4.500\" height=\"15\" rx=\"2.200\" fill=\"#e8452c\"/><circle cx=\"42.700\" cy=\"35.500\" r=\"2.500\" fill=\"#e8452c\"/>",
+  "gothique": "<path d=\"M11 14c4-5 14-6 21-3s8 10 7 19-7 12-16 12-13-4-14-12 0-13 2-16z\" fill=\"#eee8f7\"/><path d=\"M11 21c0-5 1-8 3-10 5-4 13-5 19-2 4 2 6 7 6 13l-4-3-3 3-3-3-3 3-3-3-3 3-3-3-3 3z\" fill=\"#111111\"/><path d=\"M14.500 26h7.500l-1.200 2.800h-5.100zM26 26h7.500l-1.200 2.800h-5.100z\" fill=\"#111111\"/><circle cx=\"18.300\" cy=\"27.800\" r=\"1.200\" fill=\"#eee8f7\"/><circle cx=\"29.800\" cy=\"27.800\" r=\"1.200\" fill=\"#eee8f7\"/><rect x=\"20.500\" y=\"34.500\" width=\"7\" height=\"2.300\" rx=\"1.150\" fill=\"#6a1f5a\"/><path d=\"M36 2.500l2 2.500 2.500-1.500 2.500 1.500 2-2.500q1 5-3 6l-1.500-1.500L39 8.500q-4-1-3-6z\" fill=\"#111111\"/>",
+  "diva": "<g transform=\"translate(-2 2)\"><path d=\"M12 19c-1-6 5-10 10-9 3-3 10-2 12 3 5 1 7 7 5 12 2 6-2 12-9 12-3 3-10 3-13 0-6 1-10-5-8-10-2-2-2-6 3-8z\" fill=\"#ff6b35\"/><path d=\"M17 13l2.500-6 2.500 4.500 2-7 2 7 2.500-4.500 2.500 6z\" fill=\"#ffc93c\"/><circle cx=\"24\" cy=\"4\" r=\"1.400\" fill=\"#f5a3d0\"/><path d=\"M15.500 23.500q3-2.500 6 0M26.500 23.500q3-2.500 6 0\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.9\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><ellipse cx=\"24\" cy=\"32.500\" rx=\"3.800\" ry=\"4.800\" fill=\"#111111\"/><ellipse cx=\"24\" cy=\"35\" rx=\"2.300\" ry=\"1.700\" fill=\"#f5a3d0\"/></g><path d=\"M41 21v-9l5-1.500v8\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.600\"/><ellipse cx=\"39.300\" cy=\"21.200\" rx=\"2\" ry=\"1.500\" fill=\"#111111\"/><ellipse cx=\"44.300\" cy=\"18.700\" rx=\"2\" ry=\"1.500\" fill=\"#111111\"/>",
+  "mechante": "<path d=\"M3 46l5-24 9 12zM45 46l-5-24-9 12z\" fill=\"#111111\"/><path d=\"M6 43l3.500-15 5.500 8zM42 43l-3.500-15-5.500 8z\" fill=\"#6a1f5a\"/><g transform=\"translate(0 -1)\"><path d=\"M24 8c7 0 11 6 13 13s3 20-13 20S9 28 11 21 17 8 24 8z\" fill=\"#e8452c\"/></g><path d=\"M11.500 20q-.5-13 12.500-13.500t12.500 13.500q-3.500-7-8-8.500q-2 4-9 4.500q-5 .5-8 4z\" fill=\"#6a1f5a\"/><path d=\"M14 21.500q4-4.500 7.500-1M34 22.500l-7-1.500\" fill=\"none\" stroke=\"#111111\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M15 25.500q3-2.500 6 0q-3 2-6 0zM27 25.500q3-2.500 6 0q-3 2-6 0z\" fill=\"#ffffff\"/><circle cx=\"18.500\" cy=\"25.500\" r=\"1.300\" fill=\"#111111\"/><circle cx=\"30.500\" cy=\"25.500\" r=\"1.300\" fill=\"#111111\"/><path d=\"M17.500 33.500q3.200-2 6.500 0q3.300-2 6.500 0q-6.500 6.500-13 0z\" fill=\"#6a1f5a\"/>",
+  "fofolle": "<g transform=\"translate(0 4)\"><path d=\"M9 25c0-10 6-16 15-16s16 5 16 15-5 17-16 17S9 35 9 25z\" fill=\"#ffc93c\"/></g><path d=\"M17 14.500l9.500-13.500 6 15.500q-8-4-15.500-2z\" fill=\"#f5a3d0\"/><path d=\"M21.300 8.400l6.600-1 1.200 3.200-9.600 1.500z\" fill=\"#8ed1fc\"/><circle cx=\"26.500\" cy=\"1.800\" r=\"2.300\" fill=\"#e8452c\"/><path d=\"M14.500 26q2.800-3.600 5.600 0M27.900 26q2.800-3.600 5.600 0\" fill=\"none\" stroke=\"#111111\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M14.500 31q9.500 13 19 0z\" fill=\"#111111\"/><path d=\"M17 31h14l-.9 2H17.900z\" fill=\"#ffffff\"/><ellipse cx=\"24\" cy=\"37.200\" rx=\"3.400\" ry=\"1.800\" fill=\"#e8452c\"/><rect x=\"4\" y=\"9\" width=\"3\" height=\"3\" fill=\"#8ed1fc\" transform=\"rotate(20 5.500 10.500)\"/><rect x=\"40\" y=\"6\" width=\"3\" height=\"3\" fill=\"#f5a3d0\" transform=\"rotate(-25 41.500 7.500)\"/><circle cx=\"43.500\" cy=\"17\" r=\"1.500\" fill=\"#2fa35b\"/><circle cx=\"8\" cy=\"18.500\" r=\"1.300\" fill=\"#ff6b35\"/><rect x=\"36\" y=\"13\" width=\"2.600\" height=\"2.600\" fill=\"#ff6b35\" transform=\"rotate(40 37.300 14.300)\"/>",
+  "synthese": "<rect x=\"11\" y=\"4\" width=\"22\" height=\"40\" rx=\"6\" fill=\"#f5a3d0\"/><rect x=\"13.500\" y=\"8\" width=\"17\" height=\"30\" rx=\"3\" fill=\"#ffffff\"/><path d=\"M16.500 20q2-3 4 0M23.500 20q2-3 4 0\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.9\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M17 25q5 6.500 10 0z\" fill=\"#111111\"/><path d=\"M36.500 18q3 5 0 10M40.500 15q5 8 0 16\" fill=\"none\" stroke=\"#ff6b35\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M39 3.500l1.300 3.200 3.200 1.300-3.200 1.300-1.300 3.200-1.300-3.200-3.200-1.300 3.200-1.300z\" fill=\"#ffc93c\"/>",
+  "bug": "<rect x=\"8\" y=\"8\" width=\"32\" height=\"8\" rx=\"4\" fill=\"#b9a5f5\"/><rect x=\"12\" y=\"16\" width=\"32\" height=\"7\" fill=\"#b9a5f5\"/><rect x=\"5\" y=\"23\" width=\"32\" height=\"6\" fill=\"#b9a5f5\"/><rect x=\"10\" y=\"29\" width=\"32\" height=\"5\" fill=\"#b9a5f5\"/><rect x=\"8\" y=\"34\" width=\"32\" height=\"7\" rx=\"3.500\" fill=\"#b9a5f5\"/><rect x=\"12\" y=\"16\" width=\"5\" height=\"7\" fill=\"#ff6b35\"/><rect x=\"33\" y=\"23\" width=\"4\" height=\"6\" fill=\"#35e0e0\"/><rect x=\"37\" y=\"29\" width=\"5\" height=\"5\" fill=\"#ff6b35\"/><circle cx=\"21\" cy=\"19.500\" r=\"2.300\" fill=\"#111111\"/><path d=\"M30.500 17l5 5M35.500 17l-5 5\" fill=\"none\" stroke=\"#111111\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M14 36.500h5l2-2.500 3 4 3-4 2 2.500h5\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>",
+  "star": "<g transform=\"translate(0 2)\"><path d=\"M24 8c7 0 11 6 13 13s3 20-13 20S9 28 11 21 17 8 24 8z\" fill=\"#f5a3d0\"/></g><path d=\"M10 27q-3-9 2-15t13-5.500 12 5.500 2.500 14q-3.500-1-3.500-5t-3.500-5-5-3-5.500 2.500-5.500 2-4 5.500-1.500 9z\" fill=\"#111111\"/><path d=\"M15.500 27q3 2.600 6 0M26.500 27q3 2.600 6 0\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.9\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M15 28.200l-1.300 1.500M33 28.200l1.300 1.500M18.500 29.300v1.700M29.500 29.300v1.700\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M20 35.500q2-1.700 4 0q2-1.700 4 0q-4 4-8 0z\" fill=\"#e8452c\"/><circle cx=\"31.500\" cy=\"33.500\" r=\".9\" fill=\"#111111\"/><path d=\"M41 3l1.600 4 4 1.600-4 1.600-1.600 4-1.600-4-4-1.600 4-1.600z\" fill=\"#ffc93c\"/>",
+  "premiere": "<path d=\"M35 30q7-6 5.500-19\" fill=\"none\" stroke=\"#2fa35b\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"40.300\" cy=\"9.500\" r=\"3.600\" fill=\"#2fa35b\"/><g transform=\"translate(-4 4)\"><path d=\"M24 9c5 0 8 4 11 10s8 13 4 19-25 6-30 0 1-13 4-19 6-10 11-10z\" fill=\"#2fa35b\"/><path d=\"M30 9.500l-7-4.500v9zM30 9.500l7-4.500v9z\" fill=\"#e8452c\"/><circle cx=\"30\" cy=\"9.500\" r=\"2.400\" fill=\"#e8452c\" stroke=\"#2fa35b\" stroke-width=\".8\"/><path d=\"M14.500 23q3-2.500 6 0M27.500 23q3-2.500 6 0\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.9\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"17.500\" cy=\"27\" r=\"1.900\" fill=\"#111111\"/><circle cx=\"30.500\" cy=\"27\" r=\"1.900\" fill=\"#111111\"/><path d=\"M19.500 34.500q4.500 3.500 9 0\" fill=\"none\" stroke=\"#111111\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g><rect x=\"33.500\" y=\"32.500\" width=\"12\" height=\"13\" rx=\"1.500\" fill=\"#ffffff\" stroke=\"#111111\" stroke-width=\"1.200\"/><path d=\"M36.500 42.500l2.300-6.500 2.300 6.500M37.500 40.500h2.600M42 37v3M40.500 38.500h3\" fill=\"none\" stroke=\"#e8452c\" stroke-width=\"1.300\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+ }
+}

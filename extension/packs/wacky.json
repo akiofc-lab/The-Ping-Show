@@ -1,0 +1,1684 @@
+{
+ "format": "ping-show-pack/1",
+ "id": "wacky",
+ "name": {
+  "en": "The wacky pack",
+  "fr": "Le paquet loufoque"
+ },
+ "description": {
+  "en": "Sixteen sillier, wackier characters.",
+  "fr": "Seize personnages plus drôles et plus loufoques."
+ },
+ "characters": [
+  {
+   "id": "ballon",
+   "name": {
+    "en": "The helium balloon",
+    "fr": "Le ballon d'hélium"
+   },
+   "role": {
+    "en": "the helium balloon",
+    "fr": "le ballon d'hélium"
+   },
+   "keywords": [
+    "balloon",
+    "ballon",
+    "helium"
+   ],
+   "gender": "m",
+   "voice": "L60",
+   "pitch": 1.3,
+   "pace": 1.04,
+   "expressiveness": 0.8,
+   "volume": 1,
+   "tail": 0,
+   "effects": [
+    [
+     "treble",
+     3
+    ]
+   ],
+   "jingle": "sifflet_coulisse",
+   "background": [
+    {
+     "sound": "glide",
+     "at": 1,
+     "freq": 700,
+     "to": 1500,
+     "length": 0.25,
+     "level": 0.4
+    },
+    {
+     "sound": "drop",
+     "at": 4.5,
+     "freq": 900,
+     "length": 0.07,
+     "level": 0.6,
+     "rise": 3
+    },
+    {
+     "sound": "glide",
+     "at": 6,
+     "freq": 1400,
+     "to": 800,
+     "length": 0.3,
+     "level": 0.3
+    }
+   ],
+   "catchphrases": {
+    "en": {
+     "before": [
+      "Squeak!",
+      "Up, up, up!",
+      "Whoa, I'm floating!",
+      "Hold my string!",
+      "Look at me go!"
+     ],
+     "after": [
+      "Don't let go!",
+      "Higher! Higher!",
+      "Mind the ceiling fan.",
+      "Pop goes nothing.",
+      "I'm full of ideas. And helium."
+     ]
+    },
+    "fr": {
+     "before": [
+      "Couic !",
+      "Plus haut, plus haut !",
+      "Oh, je flotte !",
+      "Tiens ma ficelle !",
+      "Regardez-moi monter !"
+     ],
+     "after": [
+      "Ne lâche pas !",
+      "Encore plus haut !",
+      "Attention au ventilateur.",
+      "Pourvu que ça n'éclate pas.",
+      "Je suis plein d'idées. Et d'hélium."
+     ]
+    }
+   },
+   "icon": "<path d=\"M24 37q-3 4 0 6t0 4\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M21.500 36.500l2.500-3 2.500 3z\" fill=\"#e8452c\"/><ellipse cx=\"24\" cy=\"19.500\" rx=\"14.500\" ry=\"16\" fill=\"#e8452c\"/><ellipse cx=\"17.500\" cy=\"12.500\" rx=\"3\" ry=\"4.500\" fill=\"#ffffff\" opacity=\".5\" transform=\"rotate(25 17.500 12.500)\"/><path d=\"M16.500 19q2.500-3 5 0M26.500 19q2.500-3 5 0\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.9\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><ellipse cx=\"24\" cy=\"26.500\" rx=\"3\" ry=\"3.600\" fill=\"#111111\"/>"
+  },
+  {
+   "id": "geant",
+   "name": {
+    "en": "The slow-motion giant",
+    "fr": "Le géant au ralenti"
+   },
+   "role": {
+    "en": "the slow-motion giant",
+    "fr": "le géant au ralenti"
+   },
+   "keywords": [
+    "giant",
+    "geant",
+    "slow"
+   ],
+   "gender": "m",
+   "voice": "L52",
+   "pitch": 0.83,
+   "pace": 0.78,
+   "expressiveness": 0.4,
+   "volume": 1,
+   "tail": 0.4,
+   "effects": [
+    [
+     "bass",
+     5,
+     90
+    ],
+    [
+     "echo",
+     0.88,
+     0.65,
+     [
+      130
+     ],
+     [
+      0.14
+     ]
+    ]
+   ],
+   "jingle": "solennel",
+   "background": [
+    {
+     "sound": "thump",
+     "at": 1,
+     "freq": 60,
+     "length": 0.35,
+     "level": 0.9
+    },
+    {
+     "sound": "thump",
+     "at": 2.6,
+     "freq": 55,
+     "length": 0.35,
+     "level": 0.8
+    },
+    {
+     "sound": "thump",
+     "at": 5.6,
+     "freq": 60,
+     "length": 0.35,
+     "level": 0.7
+    }
+   ],
+   "catchphrases": {
+    "en": {
+     "before": [
+      "Slowly now.",
+      "Who goes there?",
+      "Down there, little ones.",
+      "One moment.",
+      "Hmm."
+     ],
+     "after": [
+      "Mind your heads.",
+      "I was not finished.",
+      "Careful where I step.",
+      "It is a long way down.",
+      "Take your time."
+     ]
+    },
+    "fr": {
+     "before": [
+      "Doucement.",
+      "Qui va là ?",
+      "Vous, en bas, les petits.",
+      "Un instant.",
+      "Hum."
+     ],
+     "after": [
+      "Attention aux têtes.",
+      "Je n'avais pas fini.",
+      "Gare à mes pieds.",
+      "C'est haut, ici.",
+      "Prenez votre temps."
+     ]
+    }
+   },
+   "icon": "<g transform=\"translate(0 6)\"><path d=\"M11 14c4-5 14-6 21-3s8 10 7 19-7 12-16 12-13-4-14-12 0-13 2-16z\" fill=\"#2fa35b\"/></g><path d=\"M14.500 26.500h7M26.500 26.500h7\" fill=\"none\" stroke=\"#111111\" stroke-width=\"2.3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M17 37q7 2.500 14 0\" fill=\"none\" stroke=\"#111111\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M3 17q-1-5 4-5 1-5 7-3 4-4 8 0 5-1 5 4 3 4-2 5H6q-4 0-3-1z\" fill=\"#dfe8f5\"/><path d=\"M27 14q0-4 4-4 2-4 6-1 5-1 5 3 4 2 0 5H30q-4 0-3-3z\" fill=\"#dfe8f5\"/><circle cx=\"13\" cy=\"42\" r=\"1.300\" fill=\"#111111\"/><circle cx=\"36\" cy=\"43\" r=\"1\" fill=\"#111111\"/>"
+  },
+  {
+   "id": "commissaire",
+   "name": {
+    "en": "The auctioneer",
+    "fr": "Le commissaire-priseur"
+   },
+   "role": {
+    "en": "the auctioneer",
+    "fr": "le commissaire-priseur"
+   },
+   "keywords": [
+    "auctioneer",
+    "commissaire",
+    "auction"
+   ],
+   "gender": "m",
+   "voice": "L49",
+   "pitch": 1.04,
+   "pace": 1.24,
+   "expressiveness": 0.8,
+   "volume": 1.1,
+   "tail": 0,
+   "effects": [
+    [
+     "peak",
+     2400,
+     3,
+     1
+    ]
+   ],
+   "jingle": "xylophone",
+   "background": [
+    {
+     "sound": "knock",
+     "at": 1,
+     "freq": 420,
+     "length": 0.1,
+     "level": 0.8
+    },
+    {
+     "sound": "knock",
+     "at": 1.25,
+     "freq": 420,
+     "length": 0.1,
+     "level": 0.8
+    },
+    {
+     "sound": "knock",
+     "at": 5.2,
+     "freq": 420,
+     "length": 0.1,
+     "level": 0.9
+    }
+   ],
+   "catchphrases": {
+    "en": {
+     "before": [
+      "Lot number seven!",
+      "Do I hear fifty?",
+      "Who will start the bidding?",
+      "Ladies and gentlemen!",
+      "Fresh on the block:"
+     ],
+     "after": [
+      "Going once, going twice!",
+      "Sold!",
+      "To the bidder in the back!",
+      "Any advance on that?",
+      "Next lot, please!"
+     ]
+    },
+    "fr": {
+     "before": [
+      "Lot numéro sept !",
+      "Qui dit cinquante ?",
+      "Qui ouvre les enchères ?",
+      "Mesdames et messieurs !",
+      "Tout frais sur l'estrade :"
+     ],
+     "after": [
+      "Une fois, deux fois !",
+      "Adjugé, vendu !",
+      "Au fond de la salle !",
+      "Qui dit mieux ?",
+      "Lot suivant !"
+     ]
+    }
+   },
+   "icon": "<g transform=\"translate(-3 2)\"><path d=\"M24 8c7 0 11 6 13 13s3 20-13 20S9 28 11 21 17 8 24 8z\" fill=\"#ffc93c\"/><path d=\"M14.500 21.500l6 1.500M33.500 21.500l-6 1.500\" fill=\"none\" stroke=\"#111111\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"18.5\" cy=\"26\" r=\"1.9\" fill=\"#111111\"/><circle cx=\"29.5\" cy=\"26\" r=\"1.9\" fill=\"#111111\"/><ellipse cx=\"24\" cy=\"33.500\" rx=\"5\" ry=\"4\" fill=\"#111111\"/><path d=\"M20.500 31.500h7v1.600h-7z\" fill=\"#ffffff\"/><path d=\"M24 41l-6-3v6zM24 41l6-3v6z\" fill=\"#e8452c\"/><circle cx=\"24\" cy=\"41\" r=\"1.600\" fill=\"#e8452c\"/></g><path d=\"M36 22l6-9\" fill=\"none\" stroke=\"#8a5a2b\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"37\" y=\"5\" width=\"11\" height=\"6.500\" rx=\"1.500\" fill=\"#8a5a2b\" transform=\"rotate(34 42.500 8.300)\"/>"
+  },
+  {
+   "id": "fantome",
+   "name": {
+    "en": "The theatrical ghost",
+    "fr": "Le fantôme cabotin"
+   },
+   "role": {
+    "en": "the theatrical ghost",
+    "fr": "le fantôme cabotin"
+   },
+   "keywords": [
+    "ghost",
+    "fantome"
+   ],
+   "gender": "m",
+   "voice": "V97",
+   "pitch": 0.96,
+   "pace": 0.85,
+   "expressiveness": 0.6,
+   "volume": 1,
+   "tail": 0.6,
+   "effects": [
+    [
+     "vibrato",
+     4.5,
+     0.1
+    ],
+    [
+     "echo",
+     0.88,
+     0.62,
+     [
+      160,
+      320
+     ],
+     [
+      0.16,
+      0.07
+     ]
+    ],
+    [
+     "lowpass",
+     5500
+    ]
+   ],
+   "jingle": "grincement",
+   "background": [
+    {
+     "sound": "toll",
+     "at": 1,
+     "freq": 196,
+     "length": 2.6,
+     "level": 0.5
+    },
+    {
+     "sound": "glide",
+     "at": 4.6,
+     "freq": 500,
+     "to": 380,
+     "length": 0.9,
+     "level": 0.25
+    }
+   ],
+   "catchphrases": {
+    "en": {
+     "before": [
+      "Boo.",
+      "Who disturbs my rest?",
+      "From beyond the attic,",
+      "Do not be afraid.",
+      "Brrr."
+     ],
+     "after": [
+      "I am right behind you.",
+      "The lights are flickering.",
+      "I have haunted better channels.",
+      "Now, where did I leave my chains?",
+      "Spooky, is it not?"
+     ]
+    },
+    "fr": {
+     "before": [
+      "Bouh.",
+      "Qui trouble mon repos ?",
+      "Depuis le fond du grenier,",
+      "N'ayez pas peur.",
+      "Brrr."
+     ],
+     "after": [
+      "Je suis juste derrière vous.",
+      "Les lumières vacillent.",
+      "J'ai hanté de meilleurs salons.",
+      "Où ai-je rangé mes chaînes ?",
+      "Ça fait peur, non ?"
+     ]
+    }
+   },
+   "icon": "<path d=\"M9 44V22C9 12 15 6 24 6s15 6 15 16v22l-5-4-5 4-5-4-5 4-5-4z\" fill=\"#ffffff\" stroke=\"#b9a5f5\" stroke-width=\"1.500\" stroke-linejoin=\"round\"/><ellipse cx=\"18.500\" cy=\"20\" rx=\"2.600\" ry=\"3.600\" fill=\"#111111\"/><ellipse cx=\"29.500\" cy=\"20\" rx=\"2.600\" ry=\"3.600\" fill=\"#111111\"/><path d=\"M15 14.500l5-1.500M33 14.500l-5-1.500\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><ellipse cx=\"24\" cy=\"29\" rx=\"3.400\" ry=\"4.400\" fill=\"#111111\"/><path d=\"M39 26q5-2 5-7M9 30q-5 0-6 5\" fill=\"none\" stroke=\"#b9a5f5\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+  },
+  {
+   "id": "aspirateur",
+   "name": {
+    "en": "The lost robot vacuum",
+    "fr": "L'aspirateur robot égaré"
+   },
+   "role": {
+    "en": "the lost robot vacuum",
+    "fr": "l'aspirateur robot égaré"
+   },
+   "keywords": [
+    "vacuum",
+    "aspirateur"
+   ],
+   "gender": "m",
+   "voice": "L31",
+   "pitch": 1.05,
+   "pace": 0.95,
+   "expressiveness": 0.1,
+   "volume": 1,
+   "tail": 0,
+   "effects": [
+    [
+     "robot",
+     1024,
+     256,
+     0.35
+    ],
+    [
+     "highpass",
+     200
+    ],
+    [
+     "crackle",
+     2,
+     24,
+     0.12
+    ]
+   ],
+   "jingle": "donnees",
+   "background": [
+    {
+     "sound": "beep",
+     "at": 1,
+     "freq": 990,
+     "length": 0.1,
+     "level": 0.45
+    },
+    {
+     "sound": "thump",
+     "at": 3.4,
+     "freq": 130,
+     "length": 0.14,
+     "level": 0.6
+    },
+    {
+     "sound": "beep",
+     "at": 3.7,
+     "freq": 660,
+     "length": 0.14,
+     "level": 0.4
+    },
+    {
+     "sound": "beep",
+     "at": 6.2,
+     "freq": 1320,
+     "length": 0.08,
+     "level": 0.35
+    }
+   ],
+   "catchphrases": {
+    "en": {
+     "before": [
+      "Bump.",
+      "Obstacle detected.",
+      "Recalculating.",
+      "Cleaning in progress.",
+      "Where is the dock?"
+     ],
+     "after": [
+      "Please empty my bin.",
+      "Returning to base.",
+      "I am stuck under the sofa.",
+      "Carpet. My old enemy.",
+      "Battery low."
+     ]
+    },
+    "fr": {
+     "before": [
+      "Boum.",
+      "Obstacle détecté.",
+      "Nouveau calcul.",
+      "Nettoyage en cours.",
+      "Où est ma base ?"
+     ],
+     "after": [
+      "Veuillez vider mon bac.",
+      "Retour à la base.",
+      "Je suis coincé sous le canapé.",
+      "Un tapis. Mon vieil ennemi.",
+      "Batterie faible."
+     ]
+    }
+   },
+   "icon": "<ellipse cx=\"22\" cy=\"30\" rx=\"19\" ry=\"13\" fill=\"#3a3f55\"/><ellipse cx=\"22\" cy=\"27\" rx=\"19\" ry=\"13\" fill=\"#6a72b5\"/><path d=\"M4 30q18 13 36 0\" fill=\"none\" stroke=\"#111111\" stroke-width=\"2.200\"/><circle cx=\"16\" cy=\"24\" r=\"3.400\" fill=\"#ffffff\"/><circle cx=\"28\" cy=\"24\" r=\"3.400\" fill=\"#ffffff\"/><circle cx=\"17\" cy=\"24.800\" r=\"1.500\" fill=\"#111111\"/><circle cx=\"29\" cy=\"24.800\" r=\"1.500\" fill=\"#111111\"/><circle cx=\"22\" cy=\"17.500\" r=\"1.800\" fill=\"#6dfa8d\"/><path d=\"M38.500 6q3.500-3 5.500 0t-2.500 5v2\" fill=\"none\" stroke=\"#e8452c\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"41.500\" cy=\"16.500\" r=\"1.300\" fill=\"#e8452c\"/>"
+  },
+  {
+   "id": "scaphandrier",
+   "name": {
+    "en": "The deep-sea diver",
+    "fr": "Le scaphandrier"
+   },
+   "role": {
+    "en": "the deep-sea diver",
+    "fr": "le scaphandrier"
+   },
+   "keywords": [
+    "diver",
+    "scaphandrier",
+    "sea"
+   ],
+   "gender": "m",
+   "voice": "L50",
+   "pitch": 0.95,
+   "pace": 0.9,
+   "expressiveness": 0.5,
+   "volume": 1,
+   "tail": 0,
+   "effects": [
+    [
+     "lowpass",
+     3800
+    ],
+    [
+     "tremolo",
+     8,
+     0.2
+    ],
+    [
+     "flanger",
+     3,
+     2,
+     0.4,
+     0.25
+    ]
+   ],
+   "jingle": "sonar",
+   "background": [
+    {
+     "sound": "drop",
+     "at": 0.9,
+     "freq": 300,
+     "length": 0.14,
+     "level": 0.6,
+     "rise": 2.5
+    },
+    {
+     "sound": "drop",
+     "at": 1.2,
+     "freq": 380,
+     "length": 0.12,
+     "level": 0.5,
+     "rise": 2.5
+    },
+    {
+     "sound": "drop",
+     "at": 1.45,
+     "freq": 460,
+     "length": 0.1,
+     "level": 0.4,
+     "rise": 2.5
+    },
+    {
+     "sound": "bell",
+     "at": 5,
+     "freq": 1100,
+     "length": 1.4,
+     "level": 0.45,
+     "decay": 6
+    }
+   ],
+   "catchphrases": {
+    "en": {
+     "before": [
+      "Glub.",
+      "Diver to surface:",
+      "Bubbles ahead.",
+      "From the sea floor,",
+      "Do you read me?"
+     ],
+     "after": [
+      "Checking my oxygen.",
+      "Was that a shark?",
+      "Pull me up, please.",
+      "It is very wet down here.",
+      "Over and out."
+     ]
+    },
+    "fr": {
+     "before": [
+      "Gloub.",
+      "Plongeur à surface :",
+      "Des bulles droit devant.",
+      "Depuis le fond de la mer,",
+      "Vous me recevez ?"
+     ],
+     "after": [
+      "Je vérifie mon oxygène.",
+      "C'était un requin ?",
+      "Remontez-moi, s'il vous plaît.",
+      "C'est très mouillé, ici.",
+      "Terminé."
+     ]
+    }
+   },
+   "icon": "<rect x=\"12\" y=\"36\" width=\"24\" height=\"9\" rx=\"3\" fill=\"#b9772e\"/><circle cx=\"24\" cy=\"23\" r=\"16.500\" fill=\"#e0a04a\"/><circle cx=\"24\" cy=\"23\" r=\"10.500\" fill=\"#8ed1fc\" stroke=\"#8a5a2b\" stroke-width=\"2.400\"/><circle cx=\"20\" cy=\"22\" r=\"1.8\" fill=\"#111111\"/><circle cx=\"28\" cy=\"22\" r=\"1.8\" fill=\"#111111\"/><path d=\"M20.500 27q3.500 2.500 7 0\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"9.500\" cy=\"13\" r=\"1.600\" fill=\"#8a5a2b\"/><circle cx=\"38.500\" cy=\"13\" r=\"1.600\" fill=\"#8a5a2b\"/><circle cx=\"24\" cy=\"8.500\" r=\"1.600\" fill=\"#8a5a2b\"/><circle cx=\"42\" cy=\"7\" r=\"2.600\" fill=\"none\" stroke=\"#8ed1fc\" stroke-width=\"1.400\"/><circle cx=\"45\" cy=\"13.500\" r=\"1.500\" fill=\"none\" stroke=\"#8ed1fc\" stroke-width=\"1.200\"/>"
+  },
+  {
+   "id": "crieur",
+   "name": {
+    "en": "The town crier",
+    "fr": "Le crieur public"
+   },
+   "role": {
+    "en": "the town crier",
+    "fr": "le crieur public"
+   },
+   "keywords": [
+    "crier",
+    "crieur",
+    "town"
+   ],
+   "gender": "m",
+   "voice": "L44",
+   "pitch": 0.98,
+   "pace": 0.9,
+   "expressiveness": 0.7,
+   "volume": 1.2,
+   "tail": 0.3,
+   "effects": [
+    [
+     "peak",
+     1800,
+     3,
+     1
+    ],
+    [
+     "echo",
+     0.9,
+     0.7,
+     [
+      110
+     ],
+     [
+      0.1
+     ]
+    ]
+   ],
+   "jingle": "fanfare",
+   "background": [
+    {
+     "sound": "bell",
+     "at": 1,
+     "freq": 1175,
+     "length": 0.5,
+     "level": 0.6,
+     "decay": 4
+    },
+    {
+     "sound": "bell",
+     "at": 1.3,
+     "freq": 1175,
+     "length": 0.5,
+     "level": 0.6,
+     "decay": 4
+    },
+    {
+     "sound": "bell",
+     "at": 1.6,
+     "freq": 1175,
+     "length": 0.8,
+     "level": 0.6,
+     "decay": 4
+    }
+   ],
+   "catchphrases": {
+    "en": {
+     "before": [
+      "Hear ye, hear ye!",
+      "Good people of this channel!",
+      "Let it be known!",
+      "By order of the moderators!",
+      "Gather round!"
+     ],
+     "after": [
+      "So it is proclaimed!",
+      "Long live the channel!",
+      "Spread the word!",
+      "Nine o'clock and all is well!",
+      "That is all, good people."
+     ]
+    },
+    "fr": {
+     "before": [
+      "Oyez, oyez !",
+      "Bonnes gens de ce salon !",
+      "Qu'on se le dise !",
+      "Par ordre des modérateurs !",
+      "Approchez, approchez !"
+     ],
+     "after": [
+      "Ainsi est-il proclamé !",
+      "Longue vie au salon !",
+      "Faites passer !",
+      "Il est neuf heures et tout va bien !",
+      "C'est tout, bonnes gens."
+     ]
+    }
+   },
+   "icon": "<g transform=\"translate(-3 5)\"><path d=\"M9 25c0-10 6-16 15-16s16 5 16 15-5 17-16 17S9 35 9 25z\" fill=\"#ff6b35\"/><circle cx=\"18.5\" cy=\"24\" r=\"1.9\" fill=\"#111111\"/><circle cx=\"29.5\" cy=\"24\" r=\"1.9\" fill=\"#111111\"/><ellipse cx=\"24\" cy=\"32.500\" rx=\"5.500\" ry=\"5\" fill=\"#111111\"/><ellipse cx=\"24\" cy=\"35\" rx=\"3.400\" ry=\"1.900\" fill=\"#f5a3d0\"/></g><path d=\"M3 17l9-9q9-4 18 0l9 9q-18-6-36 0z\" fill=\"#1b1f4b\"/><path d=\"M3 17q18-6 36 0\" fill=\"none\" stroke=\"#ffc93c\" stroke-width=\"1.600\"/><path d=\"M41.500 22v4\" fill=\"none\" stroke=\"#8a5a2b\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M36 36q1-10 5.500-10t5.500 10z\" fill=\"#ffc93c\"/><circle cx=\"41.500\" cy=\"38\" r=\"1.800\" fill=\"#8a5a2b\"/>"
+  },
+  {
+   "id": "extraterrestre",
+   "name": {
+    "en": "The alien visitor",
+    "fr": "Le visiteur extraterrestre"
+   },
+   "role": {
+    "en": "the alien visitor",
+    "fr": "le visiteur extraterrestre"
+   },
+   "keywords": [
+    "alien",
+    "extraterrestre"
+   ],
+   "gender": "m",
+   "voice": "L53",
+   "pitch": 1.18,
+   "pace": 0.95,
+   "expressiveness": 0.6,
+   "volume": 1,
+   "tail": 0,
+   "effects": [
+    [
+     "robot",
+     512,
+     128,
+     0.15
+    ],
+    [
+     "flanger",
+     4,
+     3,
+     0.5,
+     0.45
+    ],
+    [
+     "vibrato",
+     6,
+     0.12
+    ]
+   ],
+   "jingle": "synthe_glisse",
+   "background": [
+    {
+     "sound": "glide",
+     "at": 1,
+     "freq": 500,
+     "to": 1300,
+     "length": 0.5,
+     "level": 0.35
+    },
+    {
+     "sound": "glide",
+     "at": 1.55,
+     "freq": 1300,
+     "to": 600,
+     "length": 0.5,
+     "level": 0.3
+    },
+    {
+     "sound": "beep",
+     "at": 5.3,
+     "freq": 1760,
+     "length": 0.07,
+     "level": 0.3
+    },
+    {
+     "sound": "beep",
+     "at": 5.45,
+     "freq": 2093,
+     "length": 0.07,
+     "level": 0.3
+    }
+   ],
+   "catchphrases": {
+    "en": {
+     "before": [
+      "Greetings, earthlings.",
+      "We come in peace.",
+      "Humans are fascinating.",
+      "Translating.",
+      "On my planet,"
+     ],
+     "after": [
+      "Take me to your leader.",
+      "This is noted for the mothership.",
+      "Your snacks are excellent.",
+      "We are watching. Kindly.",
+      "End of transmission."
+     ]
+    },
+    "fr": {
+     "before": [
+      "Salutations, Terriens.",
+      "Nous venons en paix.",
+      "Les humains sont fascinants.",
+      "Traduction en cours.",
+      "Sur ma planète,"
+     ],
+     "after": [
+      "Conduisez-moi à votre chef.",
+      "C'est noté pour le vaisseau mère.",
+      "Vos goûters sont excellents.",
+      "Nous vous observons. Gentiment.",
+      "Fin de transmission."
+     ]
+    }
+   },
+   "icon": "<path d=\"M17 12l-4-8M31 12l4-8\" fill=\"none\" stroke=\"#b9a5f5\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"13\" cy=\"4\" r=\"2.200\" fill=\"#ffc93c\"/><circle cx=\"35\" cy=\"4\" r=\"2.200\" fill=\"#ffc93c\"/><g transform=\"translate(0 2)\"><path d=\"M24 9c5 0 8 4 11 10s8 13 4 19-25 6-30 0 1-13 4-19 6-10 11-10z\" fill=\"#b9a5f5\"/></g><circle cx=\"15.500\" cy=\"25\" r=\"3.800\" fill=\"#ffffff\"/><circle cx=\"24\" cy=\"21\" r=\"3.800\" fill=\"#ffffff\"/><circle cx=\"32.500\" cy=\"25\" r=\"3.800\" fill=\"#ffffff\"/><circle cx=\"16\" cy=\"25.500\" r=\"1.600\" fill=\"#111111\"/><circle cx=\"24\" cy=\"21.500\" r=\"1.600\" fill=\"#111111\"/><circle cx=\"32\" cy=\"25.500\" r=\"1.600\" fill=\"#111111\"/><path d=\"M19.500 34q4.500 3 9 0\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.9\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+  },
+  {
+   "id": "tamia",
+   "name": {
+    "en": "The chipmunk on espresso",
+    "fr": "Le tamia sous caféine"
+   },
+   "role": {
+    "en": "the chipmunk on espresso",
+    "fr": "le tamia sous caféine"
+   },
+   "keywords": [
+    "chipmunk",
+    "tamia",
+    "espresso",
+    "coffee"
+   ],
+   "gender": "f",
+   "voice": "L57",
+   "pitch": 1.25,
+   "pace": 1.12,
+   "expressiveness": 0.7,
+   "volume": 1,
+   "tail": 0,
+   "effects": [
+    [
+     "treble",
+     2
+    ]
+   ],
+   "jingle": "boing",
+   "background": [
+    {
+     "sound": "knock",
+     "at": 0.9,
+     "freq": 1400,
+     "length": 0.03,
+     "level": 0.4
+    },
+    {
+     "sound": "knock",
+     "at": 0.98,
+     "freq": 1500,
+     "length": 0.03,
+     "level": 0.4
+    },
+    {
+     "sound": "knock",
+     "at": 1.06,
+     "freq": 1400,
+     "length": 0.03,
+     "level": 0.4
+    },
+    {
+     "sound": "knock",
+     "at": 1.14,
+     "freq": 1600,
+     "length": 0.03,
+     "level": 0.4
+    },
+    {
+     "sound": "bell",
+     "at": 4.8,
+     "freq": 2794,
+     "length": 0.4,
+     "level": 0.4,
+     "decay": 7
+    },
+    {
+     "sound": "knock",
+     "at": 6,
+     "freq": 1500,
+     "length": 0.03,
+     "level": 0.35
+    },
+    {
+     "sound": "knock",
+     "at": 6.08,
+     "freq": 1400,
+     "length": 0.03,
+     "level": 0.35
+    }
+   ],
+   "catchphrases": {
+    "en": {
+     "before": [
+      "Coffee, coffee, coffee!",
+      "Okay okay okay!",
+      "Quick, quick!",
+      "No time, no time!",
+      "Zoom!"
+     ],
+     "after": [
+      "One more cup!",
+      "I can hear colours!",
+      "Gotta go, gotta go!",
+      "Who needs sleep?",
+      "Did somebody say acorns?"
+     ]
+    },
+    "fr": {
+     "before": [
+      "Café, café, café !",
+      "D'accord d'accord d'accord !",
+      "Vite, vite !",
+      "Pas le temps, pas le temps !",
+      "Zou !"
+     ],
+     "after": [
+      "Encore une tasse !",
+      "J'entends les couleurs !",
+      "Je file, je file !",
+      "Dormir, pour quoi faire ?",
+      "Quelqu'un a dit noisettes ?"
+     ]
+    }
+   },
+   "icon": "<circle cx=\"11\" cy=\"11\" r=\"4.500\" fill=\"#b9772e\"/><circle cx=\"31\" cy=\"11\" r=\"4.500\" fill=\"#b9772e\"/><g transform=\"translate(-3 3)\"><path d=\"M12 19c-1-6 5-10 10-9 3-3 10-2 12 3 5 1 7 7 5 12 2 6-2 12-9 12-3 3-10 3-13 0-6 1-10-5-8-10-2-2-2-6 3-8z\" fill=\"#e0a04a\"/></g><path d=\"M18 6q3 6 0 13M24 6q3 6 0 13\" fill=\"none\" stroke=\"#8a5a2b\" stroke-width=\"2.200\" stroke-linecap=\"round\" transform=\"translate(-3 4)\"/><circle cx=\"14.500\" cy=\"24\" r=\"3.600\" fill=\"#ffffff\"/><circle cx=\"27.500\" cy=\"24\" r=\"3.600\" fill=\"#ffffff\"/><circle cx=\"15\" cy=\"24\" r=\"1.300\" fill=\"#111111\"/><circle cx=\"27\" cy=\"24\" r=\"1.300\" fill=\"#111111\"/><rect x=\"18.500\" y=\"31\" width=\"2.600\" height=\"4\" rx=\".7\" fill=\"#ffffff\" stroke=\"#111111\" stroke-width=\".8\"/><rect x=\"21.300\" y=\"31\" width=\"2.600\" height=\"4\" rx=\".7\" fill=\"#ffffff\" stroke=\"#111111\" stroke-width=\".8\"/><path d=\"M35 32h9v6q0 5-4.500 5t-4.500-5z\" fill=\"#ffffff\" stroke=\"#111111\" stroke-width=\"1.200\"/><path d=\"M44 34q3 .5 0 4.500\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M38 29q-1.500-2 0-4M41.500 29q-1.500-2 0-4\" fill=\"none\" stroke=\"#8a81a8\" stroke-width=\"1.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+  },
+  {
+   "id": "feuilleton",
+   "name": {
+    "en": "The soap-opera star",
+    "fr": "La star de feuilleton"
+   },
+   "role": {
+    "en": "the soap-opera star",
+    "fr": "la star de feuilleton"
+   },
+   "keywords": [
+    "soap",
+    "feuilleton",
+    "drama"
+   ],
+   "gender": "f",
+   "voice": "L15",
+   "pitch": 1.02,
+   "pace": 0.86,
+   "expressiveness": 0.7,
+   "volume": 1,
+   "tail": 0.2,
+   "effects": [
+    [
+     "vibrato",
+     5,
+     0.12
+    ],
+    [
+     "echo",
+     0.88,
+     0.65,
+     [
+      70
+     ],
+     [
+      0.1
+     ]
+    ]
+   ],
+   "jingle": "tremblant",
+   "background": [
+    {
+     "sound": "pluck",
+     "at": 1,
+     "freq": 147,
+     "length": 1.8,
+     "level": 0.7,
+     "decay": 3
+    },
+    {
+     "sound": "pluck",
+     "at": 1.05,
+     "freq": 175,
+     "length": 1.8,
+     "level": 0.6,
+     "decay": 3
+    },
+    {
+     "sound": "pluck",
+     "at": 5.2,
+     "freq": 139,
+     "length": 1.6,
+     "level": 0.5,
+     "decay": 3
+    }
+   ],
+   "catchphrases": {
+    "en": {
+     "before": [
+      "Gasp!",
+      "How could you?",
+      "After all these years!",
+      "I knew it!",
+      "No. It cannot be."
+     ],
+     "after": [
+      "To be continued.",
+      "Cue the dramatic music.",
+      "And he was my twin all along.",
+      "I shall never forgive this.",
+      "Hold me."
+     ]
+    },
+    "fr": {
+     "before": [
+      "Ciel !",
+      "Comment as-tu pu ?",
+      "Après toutes ces années !",
+      "Je le savais !",
+      "Non. C'est impossible."
+     ],
+     "after": [
+      "La suite au prochain épisode.",
+      "Musique dramatique, s'il vous plaît.",
+      "Et c'était mon jumeau depuis le début.",
+      "Je ne pardonnerai jamais.",
+      "Retenez-moi."
+     ]
+    }
+   },
+   "icon": "<path d=\"M24 8c7 0 11 6 13 13s3 20-13 20S9 28 11 21 17 8 24 8z\" fill=\"#f5a3d0\"/><path d=\"M11 21q-1-9 6-12t15 0 5 12q-3-6-8-7-6 4-18 7z\" fill=\"#8a5a2b\"/><path d=\"M15.500 25q3-2.600 6 0M26.500 25q3-2.600 6 0\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.9\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M14.500 22l-1.500-1.500M33.500 22l1.500-1.500\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><ellipse cx=\"24\" cy=\"33.500\" rx=\"3\" ry=\"3.600\" fill=\"#e8452c\"/><path d=\"M33 28q2.500 4 0 5.500q-2.500-1.500 0-5.500z\" fill=\"#8ed1fc\"/><path d=\"M36 14q7-3 9 3q-3 4-9 2z\" fill=\"#f5a3d0\" stroke=\"#111111\" stroke-width=\"1.100\" stroke-linejoin=\"round\"/>"
+  },
+  {
+   "id": "complotiste",
+   "name": {
+    "en": "The whispering conspiracy theorist",
+    "fr": "La complotiste qui chuchote"
+   },
+   "role": {
+    "en": "the whispering conspiracy theorist",
+    "fr": "la complotiste qui chuchote"
+   },
+   "keywords": [
+    "conspiracy",
+    "complotiste",
+    "whisper"
+   ],
+   "gender": "f",
+   "voice": "L1",
+   "pitch": 1,
+   "pace": 0.95,
+   "expressiveness": 0.6,
+   "volume": 1,
+   "tail": 0,
+   "effects": [
+    [
+     "whisper",
+     0.5
+    ],
+    [
+     "highpass",
+     180
+    ],
+    [
+     "treble",
+     3
+    ]
+   ],
+   "jingle": "basse_feutree",
+   "background": [
+    {
+     "sound": "scratch",
+     "at": 1,
+     "freq": 2200,
+     "length": 0.25,
+     "level": 0.35
+    },
+    {
+     "sound": "beep",
+     "at": 4.6,
+     "freq": 740,
+     "length": 0.06,
+     "level": 0.3
+    },
+    {
+     "sound": "beep",
+     "at": 4.72,
+     "freq": 740,
+     "length": 0.06,
+     "level": 0.3
+    },
+    {
+     "sound": "beep",
+     "at": 4.84,
+     "freq": 740,
+     "length": 0.16,
+     "level": 0.3
+    }
+   ],
+   "catchphrases": {
+    "en": {
+     "before": [
+      "Psst.",
+      "Between you and me,",
+      "They don't want you to know this, but",
+      "Lean in.",
+      "Not so loud."
+     ],
+     "after": [
+      "Think about it.",
+      "Coincidence? I think not.",
+      "Follow the pigeons.",
+      "I've said too much.",
+      "Delete this after reading."
+     ]
+    },
+    "fr": {
+     "before": [
+      "Psst.",
+      "Entre nous,",
+      "On ne veut pas que tu le saches, mais",
+      "Approche.",
+      "Moins fort."
+     ],
+     "after": [
+      "Réfléchis-y.",
+      "Une coïncidence ? Je ne crois pas.",
+      "Suis les pigeons.",
+      "J'en ai trop dit.",
+      "Efface ça après lecture."
+     ]
+    }
+   },
+   "icon": "<g transform=\"translate(0 4)\"><path d=\"M9 25c0-10 6-16 15-16s16 5 16 15-5 17-16 17S9 35 9 25z\" fill=\"#8ed1fc\"/></g><path d=\"M10 19l14-16 14 16q-14-5-28 0z\" fill=\"#cfd4dc\" stroke=\"#8f96a3\" stroke-width=\"1.200\" stroke-linejoin=\"round\"/><path d=\"M24 3v13M17 11l5 6M31 11l-5 6\" fill=\"none\" stroke=\"#8f96a3\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"18\" cy=\"27\" r=\"3.600\" fill=\"#ffffff\"/><circle cx=\"30\" cy=\"27\" r=\"3.600\" fill=\"#ffffff\"/><circle cx=\"19.800\" cy=\"27\" r=\"1.500\" fill=\"#111111\"/><circle cx=\"31.800\" cy=\"27\" r=\"1.500\" fill=\"#111111\"/><rect x=\"22\" y=\"31\" width=\"4\" height=\"12\" rx=\"2\" fill=\"#ffffff\" stroke=\"#111111\" stroke-width=\"1.200\"/>"
+  },
+  {
+   "id": "mamie",
+   "name": {
+    "en": "The grandma on speakerphone",
+    "fr": "La mamie au téléphone"
+   },
+   "role": {
+    "en": "the grandma on speakerphone",
+    "fr": "la mamie au téléphone"
+   },
+   "keywords": [
+    "grandma",
+    "mamie",
+    "granny"
+   ],
+   "gender": "f",
+   "voice": "L2",
+   "pitch": 1.05,
+   "pace": 0.82,
+   "expressiveness": 0.7,
+   "volume": 1,
+   "tail": 0,
+   "effects": [
+    [
+     "highpass",
+     300
+    ],
+    [
+     "lowpass",
+     4500
+    ]
+   ],
+   "jingle": "piano_pub",
+   "background": [
+    {
+     "sound": "bell",
+     "at": 1,
+     "freq": 1397,
+     "length": 0.35,
+     "level": 0.5,
+     "decay": 3
+    },
+    {
+     "sound": "bell",
+     "at": 1.4,
+     "freq": 1397,
+     "length": 0.35,
+     "level": 0.5,
+     "decay": 3
+    },
+    {
+     "sound": "knock",
+     "at": 5,
+     "freq": 1900,
+     "length": 0.03,
+     "level": 0.3
+    },
+    {
+     "sound": "knock",
+     "at": 5.25,
+     "freq": 2100,
+     "length": 0.03,
+     "level": 0.3
+    },
+    {
+     "sound": "knock",
+     "at": 5.5,
+     "freq": 1900,
+     "length": 0.03,
+     "level": 0.3
+    }
+   ],
+   "catchphrases": {
+    "en": {
+     "before": [
+      "Hello? Is this thing on?",
+      "Can you hear me, dear?",
+      "It's your grandmother.",
+      "Speak up, sweetie.",
+      "Now, where are my glasses?"
+     ],
+     "after": [
+      "Did you eat?",
+      "Call me more often.",
+      "Put on a sweater.",
+      "I'll put the kettle on.",
+      "How do I hang up?"
+     ]
+    },
+    "fr": {
+     "before": [
+      "Allô ? Ça marche, ce truc ?",
+      "Tu m'entends, mon chou ?",
+      "C'est ta grand-mère.",
+      "Parle plus fort, mon trésor.",
+      "Où sont mes lunettes ?"
+     ],
+     "after": [
+      "Tu as mangé ?",
+      "Appelle-moi plus souvent.",
+      "Mets un gilet.",
+      "Je mets de l'eau à chauffer.",
+      "Comment on raccroche ?"
+     ]
+    }
+   },
+   "icon": "<circle cx=\"24\" cy=\"7\" r=\"5.500\" fill=\"#d9dbe6\"/><g transform=\"translate(0 3)\"><path d=\"M12 19c-1-6 5-10 10-9 3-3 10-2 12 3 5 1 7 7 5 12 2 6-2 12-9 12-3 3-10 3-13 0-6 1-10-5-8-10-2-2-2-6 3-8z\" fill=\"#f5a3d0\"/></g><path d=\"M11 21q1-10 13-10t13 10q-13-5-26 0z\" fill=\"#d9dbe6\"/><circle cx=\"18\" cy=\"27\" r=\"4.300\" fill=\"#ffffff\" stroke=\"#111111\" stroke-width=\"1.500\"/><circle cx=\"30\" cy=\"27\" r=\"4.300\" fill=\"#ffffff\" stroke=\"#111111\" stroke-width=\"1.500\"/><path d=\"M22.300 27h3.400\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"18\" cy=\"27.500\" r=\"1.400\" fill=\"#111111\"/><circle cx=\"30\" cy=\"27.500\" r=\"1.400\" fill=\"#111111\"/><path d=\"M19.500 36q4.500 3 9 0\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M40 16q5 0 5 4.500v9q0 4.500-5 4.500v-4q1.500 0 1.500-2v-6q0-2-1.500-2z\" fill=\"#e8452c\"/>"
+  },
+  {
+   "id": "yoga",
+   "name": {
+    "en": "The yoga guru",
+    "fr": "La gourou du yoga"
+   },
+   "role": {
+    "en": "the yoga guru",
+    "fr": "la gourou du yoga"
+   },
+   "keywords": [
+    "yoga",
+    "guru",
+    "gourou"
+   ],
+   "gender": "f",
+   "voice": "L0",
+   "pitch": 0.95,
+   "pace": 0.75,
+   "expressiveness": 0.3,
+   "volume": 1,
+   "tail": 0.5,
+   "effects": [
+    [
+     "echo",
+     0.9,
+     0.7,
+     [
+      140,
+      280
+     ],
+     [
+      0.13,
+      0.06
+     ]
+    ],
+    [
+     "lowpass",
+     5500
+    ]
+   ],
+   "jingle": "harpe",
+   "background": [
+    {
+     "sound": "toll",
+     "at": 1,
+     "freq": 392,
+     "length": 3.5,
+     "level": 0.6
+    },
+    {
+     "sound": "bell",
+     "at": 5.5,
+     "freq": 1568,
+     "length": 1.6,
+     "level": 0.3,
+     "decay": 4
+    }
+   ],
+   "catchphrases": {
+    "en": {
+     "before": [
+      "Breathe in.",
+      "Find your center.",
+      "Gently now.",
+      "Close your eyes.",
+      "Namaste."
+     ],
+     "after": [
+      "And exhale.",
+      "Let it go.",
+      "Feel the calm.",
+      "Stretch a little further.",
+      "Be the channel."
+     ]
+    },
+    "fr": {
+     "before": [
+      "Inspirez.",
+      "Trouvez votre centre.",
+      "Tout en douceur.",
+      "Fermez les yeux.",
+      "Namasté."
+     ],
+     "after": [
+      "Et expirez.",
+      "Lâchez prise.",
+      "Sentez le calme.",
+      "Étirez-vous un peu plus.",
+      "Soyez le salon."
+     ]
+    }
+   },
+   "icon": "<g transform=\"translate(0 2)\"><path d=\"M24 9c5 0 8 4 11 10s8 13 4 19-25 6-30 0 1-13 4-19 6-10 11-10z\" fill=\"#ffc93c\"/></g><path d=\"M11.500 20q12.500-5 25 0v3.500q-12.500-5-25 0z\" fill=\"#f5a3d0\"/><path d=\"M15.500 27q3 2.600 6 0M26.500 27q3 2.600 6 0\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.9\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M20 33.500q4 2.500 8 0\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M24 37l-3 7h6z\" fill=\"#ffffff\" stroke=\"#111111\" stroke-width=\"1.100\" stroke-linejoin=\"round\"/><path d=\"M40 9q3 3 0 7q-3-4 0-7zM35 12q4 1 5 4.500q-4.500-.5-5-4.500zM45 12q-4 1-5 4.500q4.500-.5 5-4.500z\" fill=\"#f5a3d0\"/>"
+  },
+  {
+   "id": "sorciere",
+   "name": {
+    "en": "The witch at the cauldron",
+    "fr": "La sorcière au chaudron"
+   },
+   "role": {
+    "en": "the witch at the cauldron",
+    "fr": "la sorcière au chaudron"
+   },
+   "keywords": [
+    "witch",
+    "sorciere"
+   ],
+   "gender": "f",
+   "voice": "V90",
+   "pitch": 1.1,
+   "pace": 0.95,
+   "expressiveness": 0.7,
+   "volume": 1,
+   "tail": 0,
+   "effects": [
+    [
+     "growl",
+     70,
+     0.12,
+     1.3
+    ],
+    [
+     "peak",
+     2600,
+     4,
+     1.2
+    ]
+   ],
+   "jingle": "glissade_basse",
+   "background": [
+    {
+     "sound": "drop",
+     "at": 0.9,
+     "freq": 240,
+     "length": 0.16,
+     "level": 0.7,
+     "rise": 2
+    },
+    {
+     "sound": "drop",
+     "at": 1.25,
+     "freq": 300,
+     "length": 0.14,
+     "level": 0.6,
+     "rise": 2
+    },
+    {
+     "sound": "drop",
+     "at": 1.5,
+     "freq": 210,
+     "length": 0.16,
+     "level": 0.6,
+     "rise": 2
+    },
+    {
+     "sound": "croak",
+     "at": 5,
+     "freq": 210,
+     "length": 0.2,
+     "level": 0.5
+    }
+   ],
+   "catchphrases": {
+    "en": {
+     "before": [
+      "Come closer, dearie.",
+      "Stir, stir, stir!",
+      "A pinch of frog.",
+      "By my broomstick!",
+      "Now then, my pretties,"
+     ],
+     "after": [
+      "Into the cauldron!",
+      "The potion is ready.",
+      "Mind the cat.",
+      "Just a little curse.",
+      "Bubble, bubble."
+     ]
+    },
+    "fr": {
+     "before": [
+      "Approche, mon petit.",
+      "Touille, touille, touille !",
+      "Une pincée de crapaud.",
+      "Par mon balai !",
+      "Alors, mes jolis,"
+     ],
+     "after": [
+      "Dans le chaudron !",
+      "La potion est prête.",
+      "Attention au chat.",
+      "Juste un petit sortilège.",
+      "Ça bouillonne."
+     ]
+    }
+   },
+   "icon": "<g transform=\"translate(0 6)\"><path d=\"M9 25c0-10 6-16 15-16s16 5 16 15-5 17-16 17S9 35 9 25z\" fill=\"#2fa35b\"/></g><path d=\"M4 21q20-7 40 0l-9-3-9-17-5 4-4 13z\" fill=\"#6a1f5a\"/><path d=\"M12.500 17.300q11.500-3 23 0l1 2.200q-12.500-3.300-25 0z\" fill=\"#ffc93c\"/><path d=\"M14.500 26l6 2M33.500 26l-6 2\" fill=\"none\" stroke=\"#111111\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"18.5\" cy=\"30.5\" r=\"1.8\" fill=\"#111111\"/><circle cx=\"29.5\" cy=\"30.5\" r=\"1.8\" fill=\"#111111\"/><path d=\"M24 30q4 4 1 6.500q-3-.5-1-6.500z\" fill=\"#237a44\"/><circle cx=\"31\" cy=\"36\" r=\"1.100\" fill=\"#237a44\"/><path d=\"M17.500 39q6.500 3.500 13 0\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.9\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"21\" y=\"39.800\" width=\"2.300\" height=\"2.600\" fill=\"#ffffff\"/>"
+  },
+  {
+   "id": "poupee",
+   "name": {
+    "en": "The haunted doll",
+    "fr": "La poupée hantée"
+   },
+   "role": {
+    "en": "the haunted doll",
+    "fr": "la poupée hantée"
+   },
+   "keywords": [
+    "doll",
+    "poupee"
+   ],
+   "gender": "f",
+   "voice": "L54",
+   "pitch": 1.2,
+   "pace": 0.85,
+   "expressiveness": 0.3,
+   "volume": 1,
+   "tail": 0.4,
+   "effects": [
+    [
+     "echo",
+     0.88,
+     0.68,
+     [
+      180
+     ],
+     [
+      0.16
+     ]
+    ],
+    [
+     "vibrato",
+     3,
+     0.08
+    ],
+    [
+     "highpass",
+     250
+    ]
+   ],
+   "jingle": "boite_a_musique",
+   "background": [
+    {
+     "sound": "bell",
+     "at": 1,
+     "freq": 1319,
+     "length": 0.9,
+     "level": 0.5,
+     "decay": 5
+    },
+    {
+     "sound": "bell",
+     "at": 1.4,
+     "freq": 1245,
+     "length": 0.9,
+     "level": 0.5,
+     "decay": 5
+    },
+    {
+     "sound": "bell",
+     "at": 1.8,
+     "freq": 988,
+     "length": 0.9,
+     "level": 0.5,
+     "decay": 5
+    },
+    {
+     "sound": "bell",
+     "at": 5,
+     "freq": 1319,
+     "length": 0.9,
+     "level": 0.5,
+     "decay": 5
+    },
+    {
+     "sound": "bell",
+     "at": 5.5,
+     "freq": 932,
+     "length": 0.9,
+     "level": 0.5,
+     "decay": 5
+    }
+   ],
+   "catchphrases": {
+    "en": {
+     "before": [
+      "Play with me.",
+      "Hello, friend.",
+      "I never blink.",
+      "Let's play a game.",
+      "Wind me up."
+     ],
+     "after": [
+      "I see you.",
+      "We will be friends forever.",
+      "Tea time.",
+      "Don't put me back in the box.",
+      "I moved when you looked away."
+     ]
+    },
+    "fr": {
+     "before": [
+      "Joue avec moi.",
+      "Bonjour, mon ami.",
+      "Je ne cligne jamais des yeux.",
+      "On joue à un jeu ?",
+      "Remonte-moi."
+     ],
+     "after": [
+      "Je te vois.",
+      "Nous serons amis pour toujours.",
+      "C'est l'heure du thé.",
+      "Ne me remets pas dans la boîte.",
+      "J'ai bougé quand tu ne regardais pas."
+     ]
+    }
+   },
+   "icon": "<path d=\"M9 20q0-12 15-12t15 12v9q-3-9-15-9T9 29z\" fill=\"#111111\"/><g transform=\"translate(0 3)\"><path d=\"M11 14c4-5 14-6 21-3s8 10 7 19-7 12-16 12-13-4-14-12 0-13 2-16z\" fill=\"#fff1e0\"/></g><path d=\"M15 8l-7-4v9zM15 8l7-4v9z\" fill=\"#e8452c\"/><circle cx=\"15\" cy=\"8.500\" r=\"2.400\" fill=\"#e8452c\"/><circle cx=\"18\" cy=\"26\" r=\"4\" fill=\"#111111\"/><circle cx=\"30\" cy=\"26\" r=\"4\" fill=\"#111111\"/><path d=\"M16.500 24.500l3 3M19.500 24.500l-3 3M28.500 24.500l3 3M31.500 24.500l-3 3\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"1.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"14\" cy=\"32.500\" r=\"2.200\" fill=\"#f5a3d0\"/><circle cx=\"34\" cy=\"32.500\" r=\"2.200\" fill=\"#f5a3d0\"/><path d=\"M17.500 36q6.500 4 13 0\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M20 36v2.500M24 37.500v2.500M28 36v2.500\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+  },
+  {
+   "id": "aeroport",
+   "name": {
+    "en": "The airport announcer",
+    "fr": "L'annonceuse d'aéroport"
+   },
+   "role": {
+    "en": "the airport announcer",
+    "fr": "l'annonceuse d'aéroport"
+   },
+   "keywords": [
+    "airport",
+    "aeroport",
+    "announcer"
+   ],
+   "gender": "f",
+   "voice": "L12",
+   "pitch": 1,
+   "pace": 0.9,
+   "expressiveness": 0.2,
+   "volume": 1,
+   "tail": 0.3,
+   "effects": [
+    [
+     "highpass",
+     300
+    ],
+    [
+     "lowpass",
+     4000
+    ],
+    [
+     "echo",
+     0.88,
+     0.68,
+     [
+      60,
+      120
+     ],
+     [
+      0.15,
+      0.07
+     ]
+    ],
+    [
+     "compress",
+     0.1,
+     3
+    ]
+   ],
+   "jingle": "verre",
+   "background": [
+    {
+     "sound": "bell",
+     "at": 1,
+     "freq": 784,
+     "length": 1,
+     "level": 0.6,
+     "decay": 4
+    },
+    {
+     "sound": "bell",
+     "at": 1.45,
+     "freq": 587,
+     "length": 1.3,
+     "level": 0.6,
+     "decay": 4
+    }
+   ],
+   "catchphrases": {
+    "en": {
+     "before": [
+      "Attention, passengers.",
+      "Your attention, please.",
+      "This is a final call.",
+      "Good afternoon, travellers.",
+      "Passengers of this channel:"
+     ],
+     "after": [
+      "Thank you for your patience.",
+      "Please proceed to gate twelve.",
+      "Do not leave your messages unattended.",
+      "Boarding is now closed.",
+      "We apologise for the delay."
+     ]
+    },
+    "fr": {
+     "before": [
+      "Votre attention, s'il vous plaît.",
+      "Mesdames et messieurs les voyageurs,",
+      "Dernier appel.",
+      "Bonjour à tous les passagers.",
+      "Passagers de ce salon :"
+     ],
+     "after": [
+      "Merci de votre patience.",
+      "Veuillez vous présenter porte douze.",
+      "Ne laissez pas vos messages sans surveillance.",
+      "L'embarquement est terminé.",
+      "Veuillez excuser ce retard."
+     ]
+    }
+   },
+   "icon": "<path d=\"M10 27v-4a14 14 0 0 1 28 0v4\" fill=\"none\" stroke=\"#111111\" stroke-width=\"2.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><g transform=\"translate(0 3)\"><path d=\"M9 25c0-10 6-16 15-16s16 5 16 15-5 17-16 17S9 35 9 25z\" fill=\"#2440e6\"/></g><rect x=\"5.500\" y=\"24\" width=\"6.500\" height=\"10\" rx=\"3\" fill=\"#111111\"/><path d=\"M16.500 27q2.500-3 5 0M26.500 27q2.500-3 5 0\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"1.9\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M19 34.500q5 3.500 10 0\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"1.9\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M9 34q1 8 9 7\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"19\" cy=\"41\" r=\"2\" fill=\"#111111\"/><path d=\"M33 9l11-4q3-.5 1.500 1.500l-5.500 5.500 1 5.500-2 1-2.500-4.500-4 2.500-.5 2.500-1.500.5-.5-4-3.500-2 1-1.500 2.500.5 4-3.500z\" fill=\"#ffc93c\" stroke=\"#111111\" stroke-width=\".9\" stroke-linejoin=\"round\"/>"
+  }
+ ]
+}

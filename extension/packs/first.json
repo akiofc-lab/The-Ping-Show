@@ -1,0 +1,1694 @@
+{
+ "format": "ping-show-pack/1",
+ "id": "first",
+ "name": {
+  "en": "The first pack",
+  "fr": "Le premier paquet"
+ },
+ "description": {
+  "en": "The sixteen characters of the first version.",
+  "fr": "Les seize personnages de la première version."
+ },
+ "characters": [
+  {
+   "id": "annonce",
+   "name": {
+    "en": "The movie-trailer voice",
+    "fr": "La voix de bande-annonce"
+   },
+   "role": {
+    "en": "the movie-trailer voice",
+    "fr": "la voix de bande-annonce"
+   },
+   "keywords": [
+    "trailer",
+    "annonce",
+    "movie"
+   ],
+   "gender": "m",
+   "voice": "L52",
+   "pitch": 0.88,
+   "pace": 0.9,
+   "expressiveness": 0.5,
+   "volume": 1,
+   "tail": 0.25,
+   "effects": [
+    [
+     "bass",
+     5,
+     120
+    ],
+    [
+     "compress",
+     0.1,
+     3
+    ],
+    [
+     "echo",
+     0.85,
+     0.6,
+     [
+      55
+     ],
+     [
+      0.15
+     ]
+    ]
+   ],
+   "jingle": "impact",
+   "background": [
+    {
+     "sound": "thump",
+     "at": 1,
+     "freq": 70,
+     "length": 0.5,
+     "level": 0.9
+    },
+    {
+     "sound": "toll",
+     "at": 1.05,
+     "freq": 110,
+     "length": 2.5,
+     "level": 0.45
+    }
+   ],
+   "catchphrases": {
+    "en": {
+     "before": [
+      "In a world where…",
+      "This summer.",
+      "One channel. One message.",
+      "Coming soon.",
+      "From the people who brought you this channel."
+     ],
+     "after": []
+    },
+    "fr": {
+     "before": [
+      "Dans un monde où…",
+      "Cet été, au cinéma.",
+      "Un salon. Un message.",
+      "Prochainement.",
+      "Par l'équipe qui vous a apporté ce salon."
+     ],
+     "after": []
+    }
+   },
+   "icon": "<path d=\"M11 14c4-5 14-6 21-3s8 10 7 19-7 12-16 12-13-4-14-12 0-13 2-16z\" fill=\"#ff6b35\"/><path d=\"M14.500 20.500l6.500 2M33.500 20.500l-6.500 2\" fill=\"none\" stroke=\"#111111\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"18.5\" cy=\"26\" r=\"1.9\" fill=\"#111111\"/><circle cx=\"29.5\" cy=\"26\" r=\"1.9\" fill=\"#111111\"/><path d=\"M20 34h8\" fill=\"none\" stroke=\"#111111\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"9\" y=\"2.500\" width=\"30\" height=\"7.500\" rx=\"2\" fill=\"#111111\"/><path d=\"M12.500 2.500l4 7.500M20.500 2.500l4 7.500M28.500 2.500l4 7.500M36 2.500l3 5.500\" stroke=\"#ffffff\" stroke-width=\"2.400\"/>"
+  },
+  {
+   "id": "alpha",
+   "name": {
+    "en": "The alpha male",
+    "fr": "Le mâle alpha"
+   },
+   "role": {
+    "en": "the alpha male",
+    "fr": "le mâle alpha"
+   },
+   "keywords": [
+    "alpha"
+   ],
+   "gender": "m",
+   "voice": "L48",
+   "pitch": 0.85,
+   "pace": 0.86,
+   "expressiveness": 0.25,
+   "volume": 1,
+   "tail": 0,
+   "effects": [
+    [
+     "bass",
+     5,
+     95
+    ],
+    [
+     "compress",
+     0.1,
+     4
+    ]
+   ],
+   "jingle": "boum",
+   "background": [
+    {
+     "sound": "thump",
+     "at": 1,
+     "freq": 95,
+     "length": 0.2,
+     "level": 0.9
+    },
+    {
+     "sound": "thump",
+     "at": 1.3,
+     "freq": 85,
+     "length": 0.2,
+     "level": 0.55
+    },
+    {
+     "sound": "thump",
+     "at": 5,
+     "freq": 95,
+     "length": 0.2,
+     "level": 0.9
+    },
+    {
+     "sound": "thump",
+     "at": 5.3,
+     "freq": 85,
+     "length": 0.2,
+     "level": 0.55
+    }
+   ],
+   "catchphrases": {
+    "en": {
+     "before": [
+      "Listen.",
+      "Real talk.",
+      "No excuses.",
+      "Bottom line:",
+      "Simple."
+     ],
+     "after": [
+      "That is all.",
+      "Period.",
+      "Enough said.",
+      "Stay strong.",
+      "No days off.",
+      "Winners win."
+     ]
+    },
+    "fr": {
+     "before": [
+      "Écoute.",
+      "Soyons clairs.",
+      "Pas d'excuses.",
+      "En résumé :",
+      "C'est simple."
+     ],
+     "after": [
+      "Voilà.",
+      "C'est dit.",
+      "Point final.",
+      "Reste fort.",
+      "Jamais de repos.",
+      "Les gagnants gagnent."
+     ]
+    }
+   },
+   "icon": "<path d=\"M11 14c4-5 14-6 21-3s8 10 7 19-7 12-16 12-13-4-14-12 0-13 2-16z\" fill=\"#ffc93c\"/><rect x=\"10.500\" y=\"19.500\" width=\"27\" height=\"7.500\" rx=\"3\" fill=\"#111111\"/><path d=\"M14 22h6M27.500 22h6\" stroke=\"#ffffff70\" stroke-width=\"1.500\" stroke-linecap=\"round\"/><path d=\"M19.500 35h9\" fill=\"none\" stroke=\"#111111\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M6 33q-4 2-2 7M42 33q4 2 2 7\" fill=\"none\" stroke=\"#ffc93c\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+  },
+  {
+   "id": "nerd",
+   "name": {
+    "en": "The “actually” nerd",
+    "fr": "Le nerd « en fait… »"
+   },
+   "role": {
+    "en": "the nerd",
+    "fr": "le nerd"
+   },
+   "keywords": [
+    "nerd",
+    "actually"
+   ],
+   "gender": "m",
+   "voice": "L32",
+   "pitch": 1.1,
+   "pace": 1.03,
+   "expressiveness": 0.7,
+   "volume": 1,
+   "tail": 0,
+   "effects": [
+    [
+     "highpass",
+     200
+    ],
+    [
+     "peak",
+     1100,
+     4,
+     1.5
+    ]
+   ],
+   "jingle": "huit_bits",
+   "background": [
+    {
+     "sound": "scratch",
+     "at": 0.8,
+     "freq": 1900,
+     "length": 0.018,
+     "level": 0.5
+    },
+    {
+     "sound": "scratch",
+     "at": 0.93,
+     "freq": 2400,
+     "length": 0.018,
+     "level": 0.5
+    },
+    {
+     "sound": "scratch",
+     "at": 1.1,
+     "freq": 1700,
+     "length": 0.018,
+     "level": 0.5
+    },
+    {
+     "sound": "scratch",
+     "at": 1.24,
+     "freq": 2600,
+     "length": 0.018,
+     "level": 0.5
+    },
+    {
+     "sound": "scratch",
+     "at": 1.4,
+     "freq": 2100,
+     "length": 0.018,
+     "level": 0.5
+    },
+    {
+     "sound": "scratch",
+     "at": 1.58,
+     "freq": 1800,
+     "length": 0.018,
+     "level": 0.5
+    },
+    {
+     "sound": "scratch",
+     "at": 4.9,
+     "freq": 2300,
+     "length": 0.018,
+     "level": 0.5
+    },
+    {
+     "sound": "scratch",
+     "at": 5.05,
+     "freq": 1750,
+     "length": 0.018,
+     "level": 0.5
+    },
+    {
+     "sound": "scratch",
+     "at": 5.2,
+     "freq": 2500,
+     "length": 0.018,
+     "level": 0.5
+    },
+    {
+     "sound": "scratch",
+     "at": 5.36,
+     "freq": 2000,
+     "length": 0.018,
+     "level": 0.5
+    },
+    {
+     "sound": "scratch",
+     "at": 5.5,
+     "freq": 2700,
+     "length": 0.018,
+     "level": 0.5
+    },
+    {
+     "sound": "scratch",
+     "at": 5.7,
+     "freq": 1850,
+     "length": 0.018,
+     "level": 0.5
+    }
+   ],
+   "catchphrases": {
+    "en": {
+     "before": [
+      "Um, actually…",
+      "Technically…",
+      "Well, to be precise:",
+      "Fun fact:",
+      "Strictly speaking,",
+      "If you read the documentation,"
+     ],
+     "after": [
+      "I can cite my sources.",
+      "It's in the manual.",
+      "Just saying.",
+      "But I digress.",
+      "Look it up."
+     ]
+    },
+    "fr": {
+     "before": [
+      "Euh, en fait…",
+      "Techniquement…",
+      "Petite précision :",
+      "Le saviez-vous ?",
+      "À proprement parler,",
+      "Si on lit la documentation,"
+     ],
+     "after": [
+      "Je peux citer mes sources.",
+      "C'est dans le manuel.",
+      "Je dis ça, je dis rien.",
+      "Mais je m'égare.",
+      "Vérifiez."
+     ]
+    }
+   },
+   "icon": "<path d=\"M24 8c7 0 11 6 13 13s3 20-13 20S9 28 11 21 17 8 24 8z\" fill=\"#2fa35b\"/><circle cx=\"17.500\" cy=\"24\" r=\"6.200\" fill=\"#ffffff\" stroke=\"#111111\" stroke-width=\"2\"/><circle cx=\"30.500\" cy=\"24\" r=\"6.200\" fill=\"#ffffff\" stroke=\"#111111\" stroke-width=\"2\"/><path d=\"M23.700 24h.6\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"18.800\" cy=\"24.800\" r=\"1.800\" fill=\"#111111\"/><circle cx=\"29.200\" cy=\"24.800\" r=\"1.800\" fill=\"#111111\"/><path d=\"M19 34.500q5 3 10 0\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"21.500\" y=\"35\" width=\"2.300\" height=\"3.600\" rx=\".7\" fill=\"#ffffff\" stroke=\"#111111\" stroke-width=\".8\"/><rect x=\"24.200\" y=\"35\" width=\"2.300\" height=\"3.600\" rx=\".7\" fill=\"#ffffff\" stroke=\"#111111\" stroke-width=\".8\"/>"
+  },
+  {
+   "id": "radio",
+   "name": {
+    "en": "The FM radio host",
+    "fr": "L'animateur radio FM"
+   },
+   "role": {
+    "en": "the radio host",
+    "fr": "l'animateur radio"
+   },
+   "keywords": [
+    "radio",
+    "host",
+    "dj"
+   ],
+   "gender": "m",
+   "voice": "L44",
+   "pitch": 0.96,
+   "pace": 1.03,
+   "expressiveness": 0.8,
+   "volume": 1,
+   "tail": 0.15,
+   "effects": [
+    [
+     "compress",
+     0.08,
+     5
+    ],
+    [
+     "bass",
+     4,
+     140
+    ],
+    [
+     "treble",
+     3
+    ],
+    [
+     "echo",
+     0.85,
+     0.7,
+     [
+      38
+     ],
+     [
+      0.14
+     ]
+    ]
+   ],
+   "jingle": "jingle_radio",
+   "background": [
+    {
+     "sound": "pluck",
+     "at": 1,
+     "freq": 523,
+     "length": 0.8,
+     "level": 0.6
+    },
+    {
+     "sound": "pluck",
+     "at": 1.15,
+     "freq": 659,
+     "length": 0.8,
+     "level": 0.6
+    },
+    {
+     "sound": "pluck",
+     "at": 1.3,
+     "freq": 784,
+     "length": 1,
+     "level": 0.6
+    },
+    {
+     "sound": "bell",
+     "at": 5.5,
+     "freq": 1568,
+     "length": 0.6,
+     "level": 0.3,
+     "decay": 6
+    }
+   ],
+   "catchphrases": {
+    "en": {
+     "before": [
+      "And right now…",
+      "Dear listeners,",
+      "You're on the air.",
+      "Good morning, everybody!"
+     ],
+     "after": [
+      "Stay tuned!",
+      "More after the break.",
+      "Back to you.",
+      "Don't touch that dial."
+     ]
+    },
+    "fr": {
+     "before": [
+      "Et tout de suite…",
+      "Chers auditeurs,",
+      "Vous êtes à l'antenne.",
+      "Bonjour à tous !"
+     ],
+     "after": [
+      "Et on enchaîne !",
+      "Restez à l'écoute.",
+      "À vous les studios.",
+      "Ne zappez pas."
+     ]
+    }
+   },
+   "icon": "<path d=\"M8.500 26V23a15.500 15.500 0 0 1 31 0v3\" fill=\"none\" stroke=\"#111111\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M9 25c0-10 6-16 15-16s16 5 16 15-5 17-16 17S9 35 9 25z\" fill=\"#f5a3d0\"/><rect x=\"4.500\" y=\"21\" width=\"7\" height=\"12\" rx=\"3.500\" fill=\"#111111\"/><rect x=\"36.500\" y=\"21\" width=\"7\" height=\"12\" rx=\"3.500\" fill=\"#111111\"/><path d=\"M16 23q2.500-3 5 0M27 23q2.500-3 5 0\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M16.500 29.500q7.500 8.500 15 0z\" fill=\"#111111\"/><path d=\"M18.500 30h11v1.700h-11z\" fill=\"#ffffff\"/><path d=\"M40 33q0 9.500-8 9.500\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"30.500\" cy=\"42.500\" r=\"3\" fill=\"#111111\"/>"
+  },
+  {
+   "id": "commentateur",
+   "name": {
+    "en": "The sports commentator",
+    "fr": "Le commentateur sportif"
+   },
+   "role": {
+    "en": "the sports commentator",
+    "fr": "le commentateur sportif"
+   },
+   "keywords": [
+    "commentator",
+    "commentateur",
+    "sports"
+   ],
+   "gender": "m",
+   "voice": "L49",
+   "pitch": 1.07,
+   "pace": 1.06,
+   "expressiveness": 0.8,
+   "volume": 1.25,
+   "tail": 0,
+   "effects": [
+    [
+     "highpass",
+     180
+    ],
+    [
+     "peak",
+     2400,
+     4,
+     1
+    ],
+    [
+     "crackle",
+     2.2,
+     40,
+     0.12
+    ]
+   ],
+   "jingle": "corne",
+   "background": [
+    {
+     "sound": "glide",
+     "at": 1,
+     "freq": 2100,
+     "to": 2400,
+     "length": 0.22,
+     "level": 0.4
+    },
+    {
+     "sound": "glide",
+     "at": 1.3,
+     "freq": 2100,
+     "to": 2400,
+     "length": 0.38,
+     "level": 0.4
+    },
+    {
+     "sound": "thump",
+     "at": 5,
+     "freq": 120,
+     "length": 0.16,
+     "level": 0.7
+    }
+   ],
+   "catchphrases": {
+    "en": {
+     "before": [
+      "Unbelievable!",
+      "Oh my, oh my!",
+      "Here we go again!",
+      "And they're off!",
+      "What a move!"
+     ],
+     "after": [
+      "What a game, folks!",
+      "And it's a goal!",
+      "Extra time!",
+      "The crowd goes wild!"
+     ]
+    },
+    "fr": {
+     "before": [
+      "Oh là là là là !",
+      "Incroyable !",
+      "Et ça repart !",
+      "Et c'est parti !",
+      "Quel geste !"
+     ],
+     "after": [
+      "Quel match, mes amis !",
+      "Et c'est le but !",
+      "Prolongations !",
+      "Le public est en délire !"
+     ]
+    }
+   },
+   "icon": "<path d=\"M24 9c5 0 8 4 11 10s8 13 4 19-25 6-30 0 1-13 4-19 6-10 11-10z\" fill=\"#e8452c\"/><path d=\"M11 22a13 13 0 0 1 26 0\" fill=\"none\" stroke=\"#111111\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"6.500\" y=\"20\" width=\"6\" height=\"10\" rx=\"3\" fill=\"#111111\"/><path d=\"M15 19l5.500-2.500M33 19l-5.500-2.500\" fill=\"none\" stroke=\"#111111\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"18.5\" cy=\"22.5\" r=\"1.9\" fill=\"#111111\"/><circle cx=\"29.5\" cy=\"22.5\" r=\"1.9\" fill=\"#111111\"/><ellipse cx=\"24\" cy=\"33\" rx=\"6.500\" ry=\"6\" fill=\"#111111\"/><ellipse cx=\"24\" cy=\"36.500\" rx=\"4\" ry=\"2.400\" fill=\"#f5a3d0\"/><path d=\"M19.500 28.700h9v1.700h-9z\" fill=\"#ffffff\"/><path d=\"M9.500 30q1 9 8.500 7\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"18.500\" cy=\"37\" r=\"1.900\" fill=\"#ffc93c\"/><path d=\"M41.500 9q2.500 3.500 0 5q-2.500-1.500 0-5zM44.500 17q2 3 0 4q-2-1 0-4z\" fill=\"#8ed1fc\"/>"
+  },
+  {
+   "id": "pirate",
+   "name": {
+    "en": "The pirate",
+    "fr": "Le pirate"
+   },
+   "role": {
+    "en": "the pirate",
+    "fr": "le pirate"
+   },
+   "keywords": [
+    "pirate"
+   ],
+   "gender": "m",
+   "voice": "L34",
+   "pitch": 0.9,
+   "pace": 0.92,
+   "expressiveness": 0.75,
+   "volume": 1,
+   "tail": 0,
+   "effects": [
+    [
+     "growl",
+     62,
+     0.22,
+     1.6
+    ],
+    [
+     "bass",
+     4,
+     130
+    ]
+   ],
+   "jingle": "cloche_bateau",
+   "background": [
+    {
+     "sound": "bell",
+     "at": 1,
+     "freq": 880,
+     "length": 1.2,
+     "level": 0.6
+    },
+    {
+     "sound": "bell",
+     "at": 1.45,
+     "freq": 880,
+     "length": 1.4,
+     "level": 0.6
+    },
+    {
+     "sound": "drop",
+     "at": 5.2,
+     "freq": 300,
+     "length": 0.2,
+     "level": 0.4
+    },
+    {
+     "sound": "drop",
+     "at": 5.5,
+     "freq": 360,
+     "length": 0.16,
+     "level": 0.3
+    }
+   ],
+   "catchphrases": {
+    "en": {
+     "before": [
+      "Arrr!",
+      "Ahoy, mateys!",
+      "Shiver me timbers!",
+      "Avast!",
+      "All hands on deck!"
+     ],
+     "after": [
+      "Arrr.",
+      "Anchors aweigh.",
+      "To the treasure!"
+     ]
+    },
+    "fr": {
+     "before": [
+      "Arrr !",
+      "Ohé, moussaillons !",
+      "Par la barbe du capitaine !",
+      "Tous sur le pont !",
+      "Mille sabords de bois !"
+     ],
+     "after": [
+      "Arrr.",
+      "Foi de pirate !",
+      "Levez l'ancre.",
+      "Au trésor !"
+     ]
+    }
+   },
+   "icon": "<path d=\"M9 25c0-10 6-16 15-16s16 5 16 15-5 17-16 17S9 35 9 25z\" fill=\"#8ed1fc\"/><path d=\"M9.500 21q14.500-9.500 30-1.500q-1.500-10.500-15.500-10.500T9.500 21z\" fill=\"#e8452c\"/><circle cx=\"17\" cy=\"14.500\" r=\"1.200\" fill=\"#ffffff\"/><circle cx=\"24\" cy=\"12.500\" r=\"1.200\" fill=\"#ffffff\"/><circle cx=\"31\" cy=\"14.500\" r=\"1.200\" fill=\"#ffffff\"/><path d=\"M38.500 18l6-2-2 6z\" fill=\"#e8452c\"/><path d=\"M10 20.500l29 6.500\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><ellipse cx=\"29.500\" cy=\"25.500\" rx=\"4.300\" ry=\"3.700\" fill=\"#111111\"/><circle cx=\"18\" cy=\"25.500\" r=\"2\" fill=\"#111111\"/><path d=\"M14.500 21l6 1\" fill=\"none\" stroke=\"#111111\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M16.500 32q7.500 7 15 0z\" fill=\"#111111\"/><rect x=\"20\" y=\"32\" width=\"3\" height=\"2.600\" fill=\"#ffffff\"/><rect x=\"24.500\" y=\"32\" width=\"3\" height=\"2.600\" fill=\"#ffc93c\"/>"
+  },
+  {
+   "id": "ninja",
+   "name": {
+    "en": "The ninja",
+    "fr": "Le ninja"
+   },
+   "role": {
+    "en": "the ninja",
+    "fr": "le ninja"
+   },
+   "keywords": [
+    "ninja"
+   ],
+   "gender": "m",
+   "voice": "L55",
+   "pitch": 0.94,
+   "pace": 0.8,
+   "expressiveness": 0.3,
+   "volume": 1,
+   "tail": 0.5,
+   "effects": [
+    [
+     "whisper",
+     0.22
+    ],
+    [
+     "echo",
+     0.88,
+     0.65,
+     [
+      140,
+      280
+     ],
+     [
+      0.15,
+      0.07
+     ]
+    ]
+   ],
+   "jingle": "lame",
+   "background": [
+    {
+     "sound": "scratch",
+     "at": 1,
+     "freq": 1500,
+     "length": 0.35,
+     "level": 0.35
+    },
+    {
+     "sound": "bell",
+     "at": 4.5,
+     "freq": 1319,
+     "length": 1.5,
+     "level": 0.45
+    },
+    {
+     "sound": "bell",
+     "at": 5.1,
+     "freq": 1976,
+     "length": 1.2,
+     "level": 0.3
+    }
+   ],
+   "catchphrases": {
+    "en": {
+     "before": [
+      "Listen…",
+      "From the shadows…",
+      "Silence.",
+      "Breathe."
+     ],
+     "after": [
+      "So speaks the wind.",
+      "Meditate on this.",
+      "Vanish.",
+      "The blade remembers."
+     ]
+    },
+    "fr": {
+     "before": [
+      "Écoute…",
+      "Dans l'ombre…",
+      "Silence.",
+      "Respire."
+     ],
+     "after": [
+      "Ainsi parle le vent.",
+      "Médite là-dessus.",
+      "Disparais.",
+      "La lame se souvient."
+     ]
+    }
+   },
+   "icon": "<path d=\"M9 25c0-10 6-16 15-16s16 5 16 15-5 17-16 17S9 35 9 25z\" fill=\"#1b1f4b\"/><path d=\"M10.500 20.500q13.500-4 28 0v8q-14 4-28 0z\" fill=\"#ffc93c\"/><path d=\"M13.500 21.500l7 2.500M35.500 21.500l-7 2.500\" fill=\"none\" stroke=\"#111111\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"18.5\" cy=\"25.8\" r=\"1.7\" fill=\"#111111\"/><circle cx=\"30.5\" cy=\"25.8\" r=\"1.7\" fill=\"#111111\"/><path d=\"M9.500 16.500q15-5 30.500.500v3q-15.500-5.500-30.500-.500z\" fill=\"#e8452c\"/><path d=\"M39 17.500l7-3-1 4 3 2-8 1z\" fill=\"#e8452c\"/>"
+  },
+  {
+   "id": "retro",
+   "name": {
+    "en": "The retro speech synth",
+    "fr": "Le synthétiseur rétro"
+   },
+   "role": {
+    "en": "the retro speech synthesizer",
+    "fr": "le synthétiseur rétro"
+   },
+   "keywords": [
+    "retro",
+    "synth"
+   ],
+   "gender": "m",
+   "voice": "L43",
+   "pitch": 1,
+   "pace": 0.92,
+   "expressiveness": 0.15,
+   "volume": 1,
+   "tail": 0,
+   "effects": [
+    [
+     "robot",
+     1024,
+     256,
+     0.5
+    ],
+    [
+     "highpass",
+     150
+    ],
+    [
+     "lowpass",
+     4200
+    ],
+    [
+     "crackle",
+     2,
+     20,
+     0.15
+    ]
+   ],
+   "jingle": "demarrage",
+   "background": [
+    {
+     "sound": "beep",
+     "at": 1,
+     "freq": 880,
+     "length": 0.09,
+     "level": 0.45
+    },
+    {
+     "sound": "beep",
+     "at": 1.15,
+     "freq": 1175,
+     "length": 0.09,
+     "level": 0.45
+    },
+    {
+     "sound": "beep",
+     "at": 5,
+     "freq": 660,
+     "length": 0.12,
+     "level": 0.4
+    }
+   ],
+   "catchphrases": {
+    "en": {
+     "before": [
+      "Ready.",
+      "Loading. Please wait."
+     ],
+     "after": [
+      "Beep.",
+      "Beep.",
+      "Insert disk two.",
+      "Press any key."
+     ]
+    },
+    "fr": {
+     "before": [
+      "Prêt.",
+      "Chargement. Veuillez patienter."
+     ],
+     "after": [
+      "Bip.",
+      "Bip.",
+      "Insérez la disquette deux.",
+      "Appuyez sur une touche."
+     ]
+    }
+   },
+   "icon": "<rect x=\"6\" y=\"6\" width=\"36\" height=\"30\" rx=\"5\" fill=\"#e3d9c0\"/><rect x=\"10\" y=\"10\" width=\"28\" height=\"20\" rx=\"3\" fill=\"#12301f\"/><rect x=\"15\" y=\"15\" width=\"4\" height=\"4\" fill=\"#6dfa8d\"/><rect x=\"29\" y=\"15\" width=\"4\" height=\"4\" fill=\"#6dfa8d\"/><path d=\"M15 23h3v3h12v-3h3\" fill=\"none\" stroke=\"#6dfa8d\" stroke-width=\"2.400\"/><rect x=\"33\" y=\"32\" width=\"5\" height=\"1.800\" rx=\".9\" fill=\"#8f8672\"/><circle cx=\"11.500\" cy=\"33\" r=\"1.100\" fill=\"#e8452c\"/><path d=\"M18 36h12l3 6H15z\" fill=\"#c9bfa5\"/>"
+  },
+  {
+   "id": "synthese",
+   "name": {
+    "en": "The peppy text-to-speech voice",
+    "fr": "La voix de synthèse enjouée"
+   },
+   "role": {
+    "en": "the peppy text-to-speech voice",
+    "fr": "la voix de synthèse enjouée"
+   },
+   "keywords": [
+    "tts",
+    "peppy",
+    "synthese"
+   ],
+   "gender": "f",
+   "voice": "L4",
+   "pitch": 1.06,
+   "pace": 1.07,
+   "expressiveness": 0.8,
+   "volume": 1,
+   "tail": 0,
+   "effects": [
+    [
+     "treble",
+     3
+    ],
+    [
+     "compress",
+     0.1,
+     3
+    ]
+   ],
+   "jingle": "pop",
+   "background": [
+    {
+     "sound": "drop",
+     "at": 0.7,
+     "freq": 640,
+     "length": 0.09,
+     "level": 0.7,
+     "rise": 2.4
+    },
+    {
+     "sound": "drop",
+     "at": 2.4,
+     "freq": 820,
+     "length": 0.09,
+     "level": 0.6,
+     "rise": 2.4
+    },
+    {
+     "sound": "drop",
+     "at": 2.6,
+     "freq": 560,
+     "length": 0.09,
+     "level": 0.8,
+     "rise": 2.4
+    },
+    {
+     "sound": "drop",
+     "at": 5.1,
+     "freq": 900,
+     "length": 0.09,
+     "level": 0.55,
+     "rise": 2.4
+    },
+    {
+     "sound": "drop",
+     "at": 6.6,
+     "freq": 700,
+     "length": 0.09,
+     "level": 0.7,
+     "rise": 2.4
+    }
+   ],
+   "catchphrases": {
+    "en": {
+     "before": [
+      "Hi there!",
+      "Great news!",
+      "Okay!",
+      "Quick update!",
+      "Hello, hello!"
+     ],
+     "after": [
+      "So cool!",
+      "Love it!",
+      "Amazing!",
+      "Have a nice day!",
+      "Thanks for listening!",
+      "Yay!"
+     ]
+    },
+    "fr": {
+     "before": [
+      "Coucou !",
+      "Bonne nouvelle !",
+      "D'accord !",
+      "Petit point rapide !",
+      "Bonjour, bonjour !"
+     ],
+     "after": [
+      "Trop bien !",
+      "J'adore !",
+      "Génial !",
+      "Bonne journée !",
+      "Merci de votre écoute !",
+      "Super !"
+     ]
+    }
+   },
+   "icon": "<rect x=\"11\" y=\"4\" width=\"22\" height=\"40\" rx=\"6\" fill=\"#f5a3d0\"/><rect x=\"13.500\" y=\"8\" width=\"17\" height=\"30\" rx=\"3\" fill=\"#ffffff\"/><path d=\"M16.500 20q2-3 4 0M23.500 20q2-3 4 0\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.9\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M17 25q5 6.500 10 0z\" fill=\"#111111\"/><path d=\"M36.500 18q3 5 0 10M40.500 15q5 8 0 16\" fill=\"none\" stroke=\"#ff6b35\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M39 3.500l1.300 3.200 3.200 1.300-3.200 1.300-1.300 3.200-1.300-3.200-3.200-1.300 3.200-1.300z\" fill=\"#ffc93c\"/>"
+  },
+  {
+   "id": "cliente",
+   "name": {
+    "en": "The outraged customer",
+    "fr": "La cliente outrée"
+   },
+   "role": {
+    "en": "the outraged customer",
+    "fr": "la cliente outrée"
+   },
+   "keywords": [
+    "customer",
+    "cliente",
+    "manager"
+   ],
+   "gender": "f",
+   "voice": "L9",
+   "pitch": 1.08,
+   "pace": 1,
+   "expressiveness": 0.7,
+   "volume": 1.15,
+   "tail": 0,
+   "effects": [
+    [
+     "peak",
+     3000,
+     3,
+     1.2
+    ]
+   ],
+   "jingle": "sonnette",
+   "background": [
+    {
+     "sound": "bell",
+     "at": 1,
+     "freq": 659,
+     "length": 1.3,
+     "level": 0.7,
+     "decay": 4
+    },
+    {
+     "sound": "bell",
+     "at": 1.5,
+     "freq": 523,
+     "length": 1.6,
+     "level": 0.7,
+     "decay": 4
+    },
+    {
+     "sound": "bell",
+     "at": 5.8,
+     "freq": 2093,
+     "length": 0.6,
+     "level": 0.35,
+     "decay": 6
+    }
+   ],
+   "catchphrases": {
+    "en": {
+     "before": [
+      "Excuse me?!",
+      "This is unacceptable!",
+      "I beg your pardon?!",
+      "Unbelievable!",
+      "I have been waiting for twenty minutes!",
+      "Who is in charge here?"
+     ],
+     "after": [
+      "I want to speak to the manager.",
+      "I'm leaving a review.",
+      "I know the owner.",
+      "I will not be coming back.",
+      "I want a refund.",
+      "This is outrageous."
+     ]
+    },
+    "fr": {
+     "before": [
+      "Non mais franchement !",
+      "C'est inadmissible !",
+      "Pardon ?!",
+      "Incroyable !",
+      "J'attends depuis vingt minutes !",
+      "Qui est le responsable ici ?"
+     ],
+     "after": [
+      "Je veux parler au responsable.",
+      "Je vais laisser un avis.",
+      "Je connais le patron.",
+      "Je ne reviendrai pas.",
+      "Je veux être remboursée.",
+      "C'est un scandale."
+     ]
+    }
+   },
+   "icon": "<g transform=\"translate(-3 0)\"><path d=\"M12 19c-1-6 5-10 10-9 3-3 10-2 12 3 5 1 7 7 5 12 2 6-2 12-9 12-3 3-10 3-13 0-6 1-10-5-8-10-2-2-2-6 3-8z\" fill=\"#ffc93c\"/><path d=\"M15 21l6.500 3M33 21l-6.500 3\" fill=\"none\" stroke=\"#111111\" stroke-width=\"2.3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"19\" cy=\"26.5\" r=\"1.9\" fill=\"#111111\"/><circle cx=\"29\" cy=\"26.5\" r=\"1.9\" fill=\"#111111\"/><path d=\"M18.500 36q5.500-5.500 11 0z\" fill=\"#111111\"/></g><rect x=\"40.500\" y=\"15\" width=\"4.500\" height=\"15\" rx=\"2.200\" fill=\"#e8452c\"/><circle cx=\"42.700\" cy=\"35.500\" r=\"2.500\" fill=\"#e8452c\"/>"
+  },
+  {
+   "id": "ordinateur",
+   "name": {
+    "en": "The ship's computer",
+    "fr": "L'ordinateur de bord"
+   },
+   "role": {
+    "en": "the ship's computer",
+    "fr": "l'ordinateur de bord"
+   },
+   "keywords": [
+    "ship",
+    "computer",
+    "ordinateur"
+   ],
+   "gender": "f",
+   "voice": "L12",
+   "pitch": 0.97,
+   "pace": 0.9,
+   "expressiveness": 0.15,
+   "volume": 1,
+   "tail": 0.3,
+   "effects": [
+    [
+     "robot",
+     1024,
+     256,
+     0.3
+    ],
+    [
+     "lowpass",
+     6000
+    ],
+    [
+     "echo",
+     0.88,
+     0.65,
+     [
+      70
+     ],
+     [
+      0.14
+     ]
+    ]
+   ],
+   "jingle": "double_bip",
+   "background": [
+    {
+     "sound": "bell",
+     "at": 1.2,
+     "freq": 1245,
+     "length": 1.4,
+     "level": 0.6,
+     "decay": 6
+    },
+    {
+     "sound": "beep",
+     "at": 5,
+     "freq": 1480,
+     "length": 0.09,
+     "level": 0.3
+    }
+   ],
+   "catchphrases": {
+    "en": {
+     "before": [
+      "Attention.",
+      "Notice:",
+      "All decks:",
+      "Status report:"
+     ],
+     "after": [
+      "End of message.",
+      "Shields holding.",
+      "Course unchanged."
+     ]
+    },
+    "fr": {
+     "before": [
+      "Attention.",
+      "Information :",
+      "À tous les ponts :",
+      "Rapport de situation :"
+     ],
+     "after": [
+      "Fin du message.",
+      "Les boucliers tiennent.",
+      "Cap inchangé."
+     ]
+    }
+   },
+   "icon": "<rect x=\"6\" y=\"5\" width=\"36\" height=\"38\" rx=\"7\" fill=\"#1b1f4b\"/><circle cx=\"24\" cy=\"21\" r=\"10.500\" fill=\"#0d1030\"/><circle cx=\"24\" cy=\"21\" r=\"7\" fill=\"none\" stroke=\"#4fd8c7\" stroke-width=\"2.600\"/><circle cx=\"24\" cy=\"21\" r=\"2.800\" fill=\"#c7fff6\"/><rect x=\"11.500\" y=\"35\" width=\"5.500\" height=\"2.800\" rx=\"1.400\" fill=\"#4fd8c7\"/><rect x=\"18.800\" y=\"35\" width=\"5.500\" height=\"2.800\" rx=\"1.400\" fill=\"#ffc93c\"/><rect x=\"26.100\" y=\"35\" width=\"5.500\" height=\"2.800\" rx=\"1.400\" fill=\"#f5a3d0\"/><rect x=\"33.400\" y=\"35\" width=\"3.500\" height=\"2.800\" rx=\"1.400\" fill=\"#6a72b5\"/>"
+  },
+  {
+   "id": "bug",
+   "name": {
+    "en": "The glitching AI",
+    "fr": "L'IA qui bugue"
+   },
+   "role": {
+    "en": "the glitching artificial intelligence",
+    "fr": "l'intelligence artificielle qui bugue"
+   },
+   "keywords": [
+    "glitch",
+    "bug"
+   ],
+   "gender": "f",
+   "voice": "L13",
+   "pitch": 0.94,
+   "pace": 0.95,
+   "expressiveness": 0.4,
+   "volume": 1,
+   "tail": 0,
+   "effects": [
+    [
+     "glitch",
+     7,
+     2.8
+    ],
+    [
+     "flanger",
+     3,
+     2,
+     0.4,
+     0.3
+    ],
+    [
+     "crackle",
+     2,
+     28,
+     0.12
+    ]
+   ],
+   "jingle": "glitch",
+   "background": [
+    {
+     "sound": "beep",
+     "at": 1.3,
+     "freq": 1480,
+     "length": 0.04,
+     "level": 0.4
+    },
+    {
+     "sound": "beep",
+     "at": 1.37,
+     "freq": 1480,
+     "length": 0.04,
+     "level": 0.4
+    },
+    {
+     "sound": "beep",
+     "at": 1.44,
+     "freq": 1480,
+     "length": 0.04,
+     "level": 0.4
+    },
+    {
+     "sound": "beep",
+     "at": 1.51,
+     "freq": 1480,
+     "length": 0.04,
+     "level": 0.4
+    },
+    {
+     "sound": "beep",
+     "at": 4.4,
+     "freq": 1210,
+     "length": 0.06,
+     "level": 0.4
+    },
+    {
+     "sound": "beep",
+     "at": 6.2,
+     "freq": 1975,
+     "length": 0.05,
+     "level": 0.35
+    }
+   ],
+   "catchphrases": {
+    "en": {
+     "before": [
+      "Loading.",
+      "System notice.",
+      "Reboot complete.",
+      "Signal found.",
+      "Warning."
+     ],
+     "after": [
+      "Error. Error.",
+      "Everything is fine.",
+      "Please try again.",
+      "Memory full.",
+      "Does not compute.",
+      "End of file."
+     ]
+    },
+    "fr": {
+     "before": [
+      "Chargement.",
+      "Avis du système.",
+      "Redémarrage terminé.",
+      "Signal trouvé.",
+      "Attention."
+     ],
+     "after": [
+      "Erreur. Erreur.",
+      "Tout va très bien.",
+      "Veuillez réessayer.",
+      "Mémoire pleine.",
+      "Calcul impossible.",
+      "Fin du fichier."
+     ]
+    }
+   },
+   "icon": "<rect x=\"8\" y=\"8\" width=\"32\" height=\"8\" rx=\"4\" fill=\"#b9a5f5\"/><rect x=\"12\" y=\"16\" width=\"32\" height=\"7\" fill=\"#b9a5f5\"/><rect x=\"5\" y=\"23\" width=\"32\" height=\"6\" fill=\"#b9a5f5\"/><rect x=\"10\" y=\"29\" width=\"32\" height=\"5\" fill=\"#b9a5f5\"/><rect x=\"8\" y=\"34\" width=\"32\" height=\"7\" rx=\"3.500\" fill=\"#b9a5f5\"/><rect x=\"12\" y=\"16\" width=\"5\" height=\"7\" fill=\"#ff6b35\"/><rect x=\"33\" y=\"23\" width=\"4\" height=\"6\" fill=\"#35e0e0\"/><rect x=\"37\" y=\"29\" width=\"5\" height=\"5\" fill=\"#ff6b35\"/><circle cx=\"21\" cy=\"19.500\" r=\"2.300\" fill=\"#111111\"/><path d=\"M30.500 17l5 5M35.500 17l-5 5\" fill=\"none\" stroke=\"#111111\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M14 36.500h5l2-2.500 3 4 3-4 2 2.500h5\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+  },
+  {
+   "id": "influenceuse",
+   "name": {
+    "en": "The influencer",
+    "fr": "L'influenceuse"
+   },
+   "role": {
+    "en": "the influencer",
+    "fr": "l'influenceuse"
+   },
+   "keywords": [
+    "influencer",
+    "influenceuse"
+   ],
+   "gender": "f",
+   "voice": "V68",
+   "pitch": 1.08,
+   "pace": 1.03,
+   "expressiveness": 0.8,
+   "volume": 1,
+   "tail": 0,
+   "effects": [
+    [
+     "treble",
+     2
+    ],
+    [
+     "compress",
+     0.1,
+     3
+    ]
+   ],
+   "jingle": "notification",
+   "background": [
+    {
+     "sound": "bell",
+     "at": 1,
+     "freq": 1568,
+     "length": 0.5,
+     "level": 0.5
+    },
+    {
+     "sound": "bell",
+     "at": 1.12,
+     "freq": 2093,
+     "length": 0.7,
+     "level": 0.5
+    },
+    {
+     "sound": "bell",
+     "at": 5.5,
+     "freq": 2637,
+     "length": 0.5,
+     "level": 0.3
+    }
+   ],
+   "catchphrases": {
+    "en": {
+     "before": [
+      "Hey guys!",
+      "So, quick update:",
+      "Okay, storytime:",
+      "You guys!"
+     ],
+     "after": [
+      "Don't forget to subscribe!",
+      "Love you all!",
+      "Link in bio.",
+      "Smash that like button!"
+     ]
+    },
+    "fr": {
+     "before": [
+      "Coucou les amours !",
+      "Alors, petite info :",
+      "Alors, petite histoire :",
+      "Les amis !"
+     ],
+     "after": [
+      "Pensez à vous abonner !",
+      "Bisous !",
+      "Lien en bio.",
+      "Lâchez un pouce !"
+     ]
+    }
+   },
+   "icon": "<circle cx=\"24\" cy=\"25\" r=\"20.500\" fill=\"none\" stroke=\"#fff1c9\" stroke-width=\"4\"/><circle cx=\"24\" cy=\"25\" r=\"20.500\" fill=\"none\" stroke=\"#ffc93c\" stroke-width=\"1\"/><g transform=\"translate(4.800 5.500) scale(.8)\"><path d=\"M24 8c7 0 11 6 13 13s3 20-13 20S9 28 11 21 17 8 24 8z\" fill=\"#f5a3d0\"/></g><path d=\"M16.500 24.500q2.500-3 5 0M26.500 24.500q2.500-3 5 0\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.9\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M16 23l-1.500-1.500M32 23l1.500-1.500\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"16.500\" cy=\"28.500\" r=\"1.900\" fill=\"#ff6b35\" opacity=\".55\"/><circle cx=\"31.500\" cy=\"28.500\" r=\"1.900\" fill=\"#ff6b35\" opacity=\".55\"/><path d=\"M19.500 29.500q4.500 5.500 9 0z\" fill=\"#111111\"/><path d=\"M40.500 5.500c1.500-2.500 5.500-1 4 2.200-.8 1.700-2.500 2.800-4 3.800-1.500-1-3.200-2.100-4-3.800-1.500-3.200 2.500-4.700 4-2.200z\" fill=\"#e8452c\"/>"
+  },
+  {
+   "id": "asmr",
+   "name": {
+    "en": "The ASMR whisperer",
+    "fr": "La chuchoteuse ASMR"
+   },
+   "role": {
+    "en": "the whisperer",
+    "fr": "la chuchoteuse"
+   },
+   "keywords": [
+    "asmr",
+    "whisperer",
+    "chuchoteuse"
+   ],
+   "gender": "f",
+   "voice": "L1",
+   "pitch": 1,
+   "pace": 0.85,
+   "expressiveness": 0.4,
+   "volume": 0.9,
+   "tail": 0,
+   "effects": [
+    [
+     "whisper",
+     0.55
+    ],
+    [
+     "highpass",
+     180
+    ],
+    [
+     "treble",
+     3
+    ]
+   ],
+   "jingle": "tapotements",
+   "background": [
+    {
+     "sound": "knock",
+     "at": 1,
+     "freq": 520,
+     "length": 0.06,
+     "level": 0.4
+    },
+    {
+     "sound": "knock",
+     "at": 1.18,
+     "freq": 560,
+     "length": 0.06,
+     "level": 0.35
+    },
+    {
+     "sound": "knock",
+     "at": 1.4,
+     "freq": 500,
+     "length": 0.06,
+     "level": 0.4
+    },
+    {
+     "sound": "scratch",
+     "at": 4.8,
+     "freq": 1200,
+     "length": 0.3,
+     "level": 0.3
+    },
+    {
+     "sound": "knock",
+     "at": 6,
+     "freq": 540,
+     "length": 0.06,
+     "level": 0.3
+    }
+   ],
+   "catchphrases": {
+    "en": {
+     "before": [
+      "Shh…",
+      "So softly…",
+      "Relax…"
+     ],
+     "after": [
+      "So soothing.",
+      "Sweet dreams."
+     ]
+    },
+    "fr": {
+     "before": [
+      "Chut…",
+      "Tout doucement…",
+      "Détends-toi…"
+     ],
+     "after": [
+      "Tellement apaisant.",
+      "Fais de beaux rêves."
+     ]
+    }
+   },
+   "icon": "<path d=\"M9 25c0-10 6-16 15-16s16 5 16 15-5 17-16 17S9 35 9 25z\" fill=\"#b9a5f5\"/><path d=\"M15.500 23.500q3 2.500 6 0M26.500 23.500q3 2.500 6 0\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.9\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"24\" cy=\"32.500\" r=\"2\" fill=\"#111111\"/><rect x=\"22\" y=\"27\" width=\"4\" height=\"13\" rx=\"2\" fill=\"#ffffff\" stroke=\"#111111\" stroke-width=\"1.200\"/><path d=\"M39.500 10q2 2 0 4M42.500 7.500q4 4.500 0 9\" fill=\"none\" stroke=\"#7e6bd1\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+  },
+  {
+   "id": "gothique",
+   "name": {
+    "en": "The goth girl",
+    "fr": "La gothique"
+   },
+   "role": {
+    "en": "the goth girl",
+    "fr": "la gothique"
+   },
+   "keywords": [
+    "goth",
+    "gothique"
+   ],
+   "gender": "f",
+   "voice": "V59",
+   "pitch": 0.9,
+   "pace": 0.88,
+   "expressiveness": 0.1,
+   "volume": 1,
+   "tail": 0.3,
+   "effects": [
+    [
+     "lowpass",
+     5000
+    ],
+    [
+     "echo",
+     0.88,
+     0.65,
+     [
+      120
+     ],
+     [
+      0.14
+     ]
+    ]
+   ],
+   "jingle": "orgue_mineur",
+   "background": [
+    {
+     "sound": "toll",
+     "at": 1.2,
+     "freq": 294,
+     "length": 3,
+     "level": 0.7
+    },
+    {
+     "sound": "toll",
+     "at": 5.4,
+     "freq": 247,
+     "length": 2.4,
+     "level": 0.4
+    }
+   ],
+   "catchphrases": {
+    "en": {
+     "before": [
+      "Sigh.",
+      "Whatever.",
+      "Ugh.",
+      "If you must know,",
+      "Darkness.",
+      "Fine."
+     ],
+     "after": [
+      "Whatever.",
+      "Nothing matters.",
+      "I'll be in my room.",
+      "It's all so pointless.",
+      "The void agrees.",
+      "Don't talk to me."
+     ]
+    },
+    "fr": {
+     "before": [
+      "Soupir.",
+      "Bref.",
+      "Pfff.",
+      "Si tu veux savoir,",
+      "Ténèbres.",
+      "Bon."
+     ],
+     "after": [
+      "Peu importe.",
+      "Tout est vain.",
+      "Je serai dans ma chambre.",
+      "Tout ça ne sert à rien.",
+      "Le néant est d'accord.",
+      "Ne me parlez pas."
+     ]
+    }
+   },
+   "icon": "<path d=\"M11 14c4-5 14-6 21-3s8 10 7 19-7 12-16 12-13-4-14-12 0-13 2-16z\" fill=\"#eee8f7\"/><path d=\"M11 21c0-5 1-8 3-10 5-4 13-5 19-2 4 2 6 7 6 13l-4-3-3 3-3-3-3 3-3-3-3 3-3-3-3 3z\" fill=\"#111111\"/><path d=\"M14.500 26h7.500l-1.200 2.800h-5.100zM26 26h7.500l-1.200 2.800h-5.100z\" fill=\"#111111\"/><circle cx=\"18.300\" cy=\"27.800\" r=\"1.200\" fill=\"#eee8f7\"/><circle cx=\"29.800\" cy=\"27.800\" r=\"1.200\" fill=\"#eee8f7\"/><rect x=\"20.500\" y=\"34.500\" width=\"7\" height=\"2.300\" rx=\"1.150\" fill=\"#6a1f5a\"/><path d=\"M36 2.500l2 2.500 2.500-1.500 2.500 1.500 2-2.500q1 5-3 6l-1.500-1.500L39 8.500q-4-1-3-6z\" fill=\"#111111\"/>"
+  },
+  {
+   "id": "diva",
+   "name": {
+    "en": "The capricious diva",
+    "fr": "La diva capricieuse"
+   },
+   "role": {
+    "en": "the capricious diva",
+    "fr": "la diva capricieuse"
+   },
+   "keywords": [
+    "diva"
+   ],
+   "gender": "f",
+   "voice": "L15",
+   "pitch": 1.06,
+   "pace": 0.88,
+   "expressiveness": 0.8,
+   "volume": 1,
+   "tail": 0.3,
+   "effects": [
+    [
+     "vibrato",
+     5.5,
+     0.22
+    ],
+    [
+     "echo",
+     0.85,
+     0.6,
+     [
+      100
+     ],
+     [
+      0.16
+     ]
+    ]
+   ],
+   "jingle": "soprano",
+   "background": [
+    {
+     "sound": "pluck",
+     "at": 1,
+     "freq": 294,
+     "length": 1.5,
+     "level": 0.5
+    },
+    {
+     "sound": "pluck",
+     "at": 1.11,
+     "freq": 370,
+     "length": 1.5,
+     "level": 0.5
+    },
+    {
+     "sound": "pluck",
+     "at": 1.22,
+     "freq": 440,
+     "length": 1.5,
+     "level": 0.5
+    },
+    {
+     "sound": "pluck",
+     "at": 1.33,
+     "freq": 587,
+     "length": 1.5,
+     "level": 0.5
+    },
+    {
+     "sound": "pluck",
+     "at": 1.44,
+     "freq": 740,
+     "length": 1.5,
+     "level": 0.5
+    },
+    {
+     "sound": "bell",
+     "at": 5.6,
+     "freq": 2349,
+     "length": 0.9,
+     "level": 0.3,
+     "decay": 6
+    }
+   ],
+   "catchphrases": {
+    "en": {
+     "before": [
+      "Darlings!",
+      "Listen to me!",
+      "Silence, please!",
+      "Spotlight on me!",
+      "My public!",
+      "Ahem!"
+     ],
+     "after": [
+      "What a tragedy!",
+      "Applause, please.",
+      "I need my tea.",
+      "No autographs.",
+      "Magnificent, as always.",
+      "Where are my flowers?"
+     ]
+    },
+    "fr": {
+     "before": [
+      "Mes chéris !",
+      "Écoutez-moi bien !",
+      "Silence, je vous prie !",
+      "Projecteur sur moi !",
+      "Mon public !",
+      "Hum hum !"
+     ],
+     "after": [
+      "Quelle tragédie !",
+      "Applaudissez.",
+      "Qu'on m'apporte mon thé.",
+      "Pas d'autographes.",
+      "Magnifique, comme toujours.",
+      "Où sont mes fleurs ?"
+     ]
+    }
+   },
+   "icon": "<g transform=\"translate(-2 2)\"><path d=\"M12 19c-1-6 5-10 10-9 3-3 10-2 12 3 5 1 7 7 5 12 2 6-2 12-9 12-3 3-10 3-13 0-6 1-10-5-8-10-2-2-2-6 3-8z\" fill=\"#ff6b35\"/><path d=\"M17 13l2.500-6 2.500 4.500 2-7 2 7 2.500-4.500 2.500 6z\" fill=\"#ffc93c\"/><circle cx=\"24\" cy=\"4\" r=\"1.400\" fill=\"#f5a3d0\"/><path d=\"M15.500 23.500q3-2.500 6 0M26.500 23.500q3-2.500 6 0\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.9\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><ellipse cx=\"24\" cy=\"32.500\" rx=\"3.800\" ry=\"4.800\" fill=\"#111111\"/><ellipse cx=\"24\" cy=\"35\" rx=\"2.300\" ry=\"1.700\" fill=\"#f5a3d0\"/></g><path d=\"M41 21v-9l5-1.500v8\" fill=\"none\" stroke=\"#111111\" stroke-width=\"1.600\"/><ellipse cx=\"39.300\" cy=\"21.200\" rx=\"2\" ry=\"1.500\" fill=\"#111111\"/><ellipse cx=\"44.300\" cy=\"18.700\" rx=\"2\" ry=\"1.500\" fill=\"#111111\"/>"
+  }
+ ]
+}

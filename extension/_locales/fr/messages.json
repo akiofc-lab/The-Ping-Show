@@ -1,0 +1,20 @@
+{
+  "nomExtension": {
+    "message": "The Ping Show"
+  },
+  "description": {
+    "message": "Lit Discord à voix haute, en direct ou en relecture, avec une drôle de voix de personnage pour chaque interlocuteur."
+  },
+  "titreAction": {
+    "message": "Ouvrir The Ping Show"
+  },
+  "commandeLecture": {
+    "message": "Lecture / pause"
+  },
+  "commandePrecedent": {
+    "message": "Message précédent"
+  },
+  "commandeSuivant": {
+    "message": "Message suivant"
+  }
+}
